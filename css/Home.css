@@ -14,3 +14,18 @@ header > nav .container-fluid .middle a{
    display: table-cell;
    padding: 16px 8px;
 }
+/* css cho mấy cái thẻ  */
+.fooder
+{
+    display: flex;
+}
+.row1 {
+    display: flex;
+}
+.anhright {
+    
+   
+}
+.word {
+    margin-left:100px;
+}
