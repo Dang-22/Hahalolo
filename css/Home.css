@@ -17,11 +17,31 @@ header > nav .container-fluid .middle a{
 .header_container{
     margin-top: 60px ;
 }
-/* .row{
-    justify-content: space-around;
-} */
-.card {
-    border-radius: 0%;
-    margin-bottom: 20px;
-    /* margin-right: 20px; */
+ 
+
+.content_item{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.bg-light .container .row .content_item{
+    padding: 8px;
+}
+.content_item .card img{
+    height: 154px;
+}
+.content_item .card-body{
+    height: 191px;
+}
+.bg-light{
+    background-image: url("https://f5.photo.talk.zdn.vn/2685029495286278930/2dfa362ea43f6e61372e.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.bg-light .container_fluid{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container_fluid .row{
+    margin-top: 17px;
 }
