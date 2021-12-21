@@ -44,6 +44,7 @@ header > nav .container-fluid .middle a{
 }
 .container_fluid .row{
     margin-top: 17px;
+    border-radius: 4px;
 }
 .bg-light .container-fluid .text 
 {
