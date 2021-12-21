@@ -50,7 +50,6 @@ header > nav .container-fluid .middle span.circle::before{
 .bg-light{
     background-image: url("http://cdn.reatimes.vn/mediav2/media_old/upload/Daz8bLLgWiyONlYhLXFY7g/files/cac-mau-bungalow-trong-resort-5.jpg");
     background-repeat: no-repeat;  
-    background-size: 800px;
     background-position: right top;
 }
 .bg-light .container_fluid{
@@ -59,11 +58,7 @@ header > nav .container-fluid .middle span.circle::before{
 }
 .container_fluid .row{
     margin-top: 17px;
-<<<<<<< HEAD
     border-radius: 4px;
-=======
-    
->>>>>>> b91a8c55c4dc490758d82b05243fc8a60b8b5de3
 }
 .bg-light .container-fluid .text 
 {
