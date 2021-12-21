@@ -1,8 +1,7 @@
-header >nav.navbar{
+header {
     padding: 0;
     margin: 0;
-    display: flexbox;
-    
+    box-sizing: border-box;
 }
 
 
@@ -17,6 +16,7 @@ header > nav .container-fluid .middle a{
    display: table-cell;
    padding: 16px 8px;
 }
+
 header > nav .container-fluid .middle span.circle::before{
     top: 4px;
     left: 8px;
@@ -27,4 +27,43 @@ header > nav .container-fluid .middle span.circle::before{
     position: absolute;
     border-radius: 50%;
     background-color: rgb(134 243 255 / 30%);
+}
+    .header_container{
+    margin-top: 60px ;
+}
+ 
+
+.content_item{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.bg-light .container .row .content_item{
+    padding: 8px;
+}
+.content_item .card img{
+    height: 154px;
+}
+.content_item .card-body{
+    height: 191px;
+}
+.bg-light{
+    background-image: url("http://cdn.reatimes.vn/mediav2/media_old/upload/Daz8bLLgWiyONlYhLXFY7g/files/cac-mau-bungalow-trong-resort-5.jpg");
+    background-repeat: no-repeat;  
+    background-size: 800px;
+    background-position: right top;
+}
+.bg-light .container_fluid{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container_fluid .row{
+    margin-top: 17px;
+    
+}
+.bg-light .container-fluid .text 
+{
+    padding-top: 20px ;
+    margin-left: 20px;
+
 }

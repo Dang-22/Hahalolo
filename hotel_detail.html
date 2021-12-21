@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/Home.css">
+     <link rel="stylesheet" href="./css/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+    rel="stylesheet">
+    <title>tìm kiếm</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <div class="left">
+              <a class="logo-brand" href="#">
+                <img src="img/logo.png" alt="" width="36" height="36">
+              </a>
+            </div>
+    
+            <div class="middle">
+              <a class="news" href="">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <path
+                    d="M10.2 6h7.1V5h-7.1v1zm0 7.2h7.1v-1h-7.1v1zm0-3.6h7.1v-1h-7.1v1zm11.1-6.3V19c0 1.6-1.2 2.9-2.9 3H5.2c-1.4 0-2.5-1.2-2.5-2.6v-7.9c0-.7.6-1.3 1.3-1.3h2.7V3.3C6.7 2.6 7.3 2 8 2h12c.7 0 1.3.6 1.3 1.3zM6.8 11.2H4c-.2 0-.3.2-.3.3v7.9c0 .9.7 1.6 1.5 1.6.9 0 1.5-.7 1.5-1.6v-8.2zm13.5-7.9c0-.2-.1-.3-.3-.3H8c-.1 0-.3.1-.3.3v16.1c0 .6-.2 1.2-.6 1.6h11.2c1.1 0 1.9-.9 1.9-2V3.3z">
+                  </path>
+                </svg>
+                <p>Bảng tin</p>
+              </a>
+    
+              <a class="experience" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path data-name="Path 20272"
+                    d="M20.59 9.263A7.26 7.26 0 009.06 3.388a1.82 1.82 0 00-2.817-1.055A1.756 1.756 0 004.05 3.664a1.514 1.514 0 00.462 2.957H6.56a7.263 7.263 0 003.69 9.218l.328 1.865h-.363a.391.391 0 00-.381.475l.781 3.514a.391.391 0 00.381.306h4.669a.391.391 0 00.381-.306l.781-3.514a.391.391 0 00-.381-.475h-.366l.328-1.865a7.273 7.273 0 004.182-6.576zm-6.872 6.445V2.818A3.419 3.419 0 0115.874 4.6a9.274 9.274 0 011.14 4.66 9.274 9.274 0 01-1.14 4.66 3.419 3.419 0 01-2.157 1.785zm-.782-12.89v12.89a3.419 3.419 0 01-2.157-1.785 9.274 9.274 0 01-1.14-4.66A9.274 9.274 0 0110.78 4.6a3.419 3.419 0 012.156-1.782zm6.872 6.445a6.491 6.491 0 01-3.9 5.943 6.055 6.055 0 00.633-.884 10.06 10.06 0 001.249-5.059A10.06 10.06 0 0016.55 4.2a6.056 6.056 0 00-.633-.884 6.491 6.491 0 013.9 5.943zM4.514 5.84a.733.733 0 01-.07-1.462A.391.391 0 004.797 4a.979.979 0 01.973-.949.967.967 0 01.391.082.391.391 0 00.423-.072 1.038 1.038 0 011.746.76 1.048 1.048 0 01-.008.128.393.393 0 000 .059 7.307 7.307 0 00-1.4 1.833zM6.85 9.263a6.491 6.491 0 013.9-5.943 6.056 6.056 0 00-.633.884 10.061 10.061 0 00-1.249 5.059 10.06 10.06 0 001.249 5.059 6.058 6.058 0 00.633.884 6.491 6.491 0 01-3.9-5.943zm4.253 6.913a7.22 7.22 0 001.838.339V17.7h-1.574zm4.25 5.043h-4.047l-.608-2.733h5.258zm-.066-3.519h-1.569v-1.184a7.22 7.22 0 001.838-.339z">
+                  </path>
+                </svg>
+                <p>Trải nghiệm</p>
+              </a>
+    
+              <a class="tour" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <g data-name="Group 28235">
+                    <g data-name="Group 28225">
+                      <path data-name="Rectangle 4477" fill="none" d="M0 0h24v24H0z"></path>
+                      <g data-name="Group 28223">
+                        <g data-name="Group 28222">
+                          <path data-name="Path 9"
+                            d="M19.855 8.806a9.721 9.721 0 001.144-3.191 2.624 2.624 0 00-5.247-.007v.007a9.737 9.737 0 001.144 3.191 1.828 1.828 0 00-1.1 1.152h-.039a.29.29 0 100 .58h.038a2.5 2.5 0 002.586 1.45c1.471 0 2.623-.763 2.623-1.74a1.68 1.68 0 00-1.149-1.442zm-3.52-3.191a2.041 2.041 0 014.081-.079v.079a13.124 13.124 0 01-1.8 4.209.3.3 0 01-.413.077.3.3 0 01-.077-.077 13.134 13.134 0 01-1.792-4.209zm2.041 5.8c-1.107 0-2.041-.535-2.041-1.16 0-.356.32-.706.831-.927.173.32.337.6.473.814a.875.875 0 001.2.268.886.886 0 00.27-.268c.135-.212.3-.5.473-.814.512.222.831.571.831.927 0 .624-.935 1.157-2.042 1.157z">
+                          </path>
+                          <path data-name="Path 10"
+                            d="M19.688 5.691a1.457 1.457 0 10-1.457 1.447 1.453 1.453 0 001.457-1.447zm-2.333 0a.875.875 0 11.875.87.873.873 0 01-.874-.87z">
+                          </path>
+                          <path data-name="Path 11"
+                            d="M9.121 12.068a2.332 2.332 0 10-2.333 2.321 2.327 2.327 0 002.333-2.321zm-4.081 0a1.749 1.749 0 111.749 1.74 1.745 1.745 0 01-1.749-1.74z">
+                          </path>
+                          <path data-name="Path 12"
+                            d="M10.58 18.97h-.034c-.153-.622-.928-1.132-2.11-1.387.961-1.76 2.142-4.365 2.142-5.564a3.79 3.79 0 00-7.579 0c0 1.2 1.18 3.8 2.142 5.564-1.328.288-2.141.9-2.141 1.623 0 1.022 1.629 1.793 3.789 1.793 1.911 0 3.4-.6 3.724-1.45h.066a.29.29 0 100-.58zm-7-6.951a3.207 3.207 0 016.413-.1v.1c0 1.229-1.647 4.724-2.717 6.392a.582.582 0 01-.8.18.574.574 0 01-.181-.18c-1.064-1.668-2.712-5.164-2.712-6.392zm3.207 8.4c-1.835 0-3.207-.641-3.207-1.214 0-.376.642-.861 1.859-1.089.131.229.255.432.366.605a1.165 1.165 0 001.963 0c.111-.173.234-.382.366-.605 1.217.229 1.859.713 1.859 1.089 0 .573-1.372 1.214-3.207 1.214z">
+                          </path>
+                          <path data-name="Path 13"
+                            d="M13.251 13.509a.29.29 0 00-.291-.29h-.3a1.055 1.055 0 01-.213-.022.29.29 0 10-.121.568 1.63 1.63 0 00.334.035h.3a.291.291 0 00.291-.29z">
+                          </path>
+                          <path data-name="Path 14"
+                            d="M18.296 13.753a.289.289 0 00-.18-.367 3.155 3.155 0 00-.613-.141.29.29 0 10-.077.576 2.654 2.654 0 01.5.114.291.291 0 00.37-.182z">
+                          </path>
+                          <path data-name="Path 15"
+                            d="M19.443 14.921a.289.289 0 00.249-.326.283.283 0 00-.059-.139 3.205 3.205 0 00-.432-.458.292.292 0 00-.411.039.289.289 0 00.027.4 2.667 2.667 0 01.354.373.292.292 0 00.272.111z">
+                          </path>
+                          <path data-name="Path 16"
+                            d="M14.953 13.508a.29.29 0 00-.291-.29h-.574a.29.29 0 100 .58h.574a.291.291 0 00.291-.29z">
+                          </path>
+                          <path data-name="Path 17"
+                            d="M20.191 15.563a.291.291 0 00-.562.153 2.6 2.6 0 01.084.505.291.291 0 00.291.271h.02a.29.29 0 00.271-.305 3.193 3.193 0 00-.104-.624z">
+                          </path>
+                          <path data-name="Path 18"
+                            d="M19.95 17.037a.292.292 0 00-.37.18 2.626 2.626 0 01-.215.467.291.291 0 00.5.293 3.135 3.135 0 00.262-.57.289.289 0 00-.18-.368z">
+                          </path>
+                          <path data-name="Path 19" d="M12.2 18.973h-.574a.29.29 0 100 .58h.574a.29.29 0 100-.58z"></path>
+                          <path data-name="Path 20"
+                            d="M17.293 18.962h-.556a.29.29 0 100 .58h.393c.067 0 .132 0 .2-.006a.29.29 0 10-.036-.579z">
+                          </path>
+                          <path data-name="Path 21"
+                            d="M16.656 13.508a.29.29 0 00-.291-.29h-.574a.29.29 0 100 .58h.574a.291.291 0 00.291-.29z">
+                          </path>
+                          <path data-name="Path 22"
+                            d="M18.685 18.428a2.654 2.654 0 01-.438.27.29.29 0 10.258.52 3.207 3.207 0 00.536-.331.289.289 0 00.083-.4.292.292 0 00-.4-.083.246.246 0 00-.035.027z">
+                          </path>
+                          <path data-name="Path 23" d="M13.908 18.973h-.575a.29.29 0 100 .58h.575a.29.29 0 100-.58z"></path>
+                          <path data-name="Path 24" d="M15.613 18.973h-.575a.29.29 0 100 .581h.575a.29.29 0 100-.581z">
+                          </path>
+                          <path data-name="Path 25"
+                            d="M11.779 11.551a.3.3 0 00.2-.076 1.03 1.03 0 01.383-.222.29.29 0 00-.177-.552 1.611 1.611 0 00-.6.349.289.289 0 00-.017.41.3.3 0 00.214.093z">
+                          </path>
+                          <path data-name="Path 26"
+                            d="M13.656 10.485l.556-.139a.29.29 0 10-.14-.563l-.557.139a.29.29 0 00.14.563z"></path>
+                          <path data-name="Path 27"
+                            d="M11.765 12.969a.29.29 0 00.007-.285 1.008 1.008 0 01-.116-.425.292.292 0 00-.583.029 1.572 1.572 0 00.184.668.292.292 0 00.394.122.287.287 0 00.113-.108z">
+                          </path>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <p>Tour</p>
+              </a>
+    
+              <a class="hotel" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <g data-name="Group 25252">
+                    <g data-name="Rectangle 4295">
+                      <path data-name="Path 20305"
+                        d="M20.608 21H8.869a.39.39 0 01-.391-.391V3.391A.391.391 0 018.869 3h11.739a.391.391 0 01.391.391v17.217a.391.391 0 01-.391.392zM9.26 20.217h10.957V3.783H9.261z">
+                      </path>
+                    </g>
+                    <g data-name="Rectangle 4296">
+                      <path data-name="Path 20306"
+                        d="M8.871 21h-5.48A.39.39 0 013 20.609V8.087a.391.391 0 01.391-.391h5.48a.391.391 0 01.391.391v12.522a.391.391 0 01-.391.391zm-5.087-.783h4.7V8.479h-4.7z">
+                      </path>
+                    </g>
+                    <g data-name="Rectangle 4297">
+                      <path data-name="Path 20307"
+                        d="M8.87 13.173H5.739a.39.39 0 01-.391-.391v-2.348a.391.391 0 01.391-.391h3.13a.391.391 0 01.391.391v2.348a.391.391 0 01-.39.391zm-2.739-.783h2.348v-1.564H6.131z">
+                      </path>
+                    </g>
+                    <g data-name="Rectangle 4298">
+                      <path data-name="Path 20308"
+                        d="M8.87 17.869H5.739a.39.39 0 01-.391-.391V15.13a.391.391 0 01.391-.391h3.13a.391.391 0 01.391.391v2.348a.391.391 0 01-.39.391zm-2.739-.783h2.348v-1.564H6.131z">
+                      </path>
+                    </g>
+                    <g data-name="Rectangle 4299">
+                      <path data-name="Path 20309"
+                        d="M16.695 21h-3.913a.39.39 0 01-.391-.391v-1.561a1.958 1.958 0 011.956-1.956h.783a1.959 1.959 0 011.957 1.956v1.565a.391.391 0 01-.392.387zm-3.522-.783h3.13v-1.169a1.175 1.175 0 00-1.174-1.174h-.783a1.175 1.175 0 00-1.172 1.174z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2175">
+                      <path data-name="Path 20310" d="M11.997 6.131h-.78a.392.392 0 110-.783h.78a.392.392 0 010 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2177">
+                      <path data-name="Path 20311" d="M18.258 6.131h-.78a.392.392 0 110-.783h.78a.392.392 0 110 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2178">
+                      <path data-name="Path 20312" d="M11.997 8.479h-.78a.392.392 0 110-.783h.78a.392.392 0 010 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2180">
+                      <path data-name="Path 20313" d="M18.258 8.479h-.78a.392.392 0 110-.783h.78a.392.392 0 110 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2181">
+                      <path data-name="Path 20314" d="M11.997 10.826h-.78a.392.392 0 110-.783h.78a.392.392 0 010 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2183">
+                      <path data-name="Path 20315" d="M18.258 10.826h-.78a.392.392 0 110-.783h.78a.392.392 0 110 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2184">
+                      <path data-name="Path 20316" d="M11.997 13.174h-.78a.392.392 0 110-.783h.78a.392.392 0 010 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2186">
+                      <path data-name="Path 20317" d="M18.258 13.174h-.78a.392.392 0 110-.783h.78a.392.392 0 110 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2187">
+                      <path data-name="Path 20318" d="M11.997 15.522h-.78a.392.392 0 110-.783h.78a.392.392 0 010 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2176">
+                      <path data-name="Path 20319" d="M15.128 6.131h-.783a.392.392 0 110-.783h.783a.392.392 0 110 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2179">
+                      <path data-name="Path 20320" d="M15.128 8.479h-.783a.392.392 0 110-.783h.783a.392.392 0 110 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2182">
+                      <path data-name="Path 20321" d="M15.128 10.826h-.783a.392.392 0 110-.783h.783a.392.392 0 110 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2185">
+                      <path data-name="Path 20322" d="M15.128 13.174h-.783a.392.392 0 110-.783h.783a.392.392 0 110 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2188">
+                      <path data-name="Path 20323" d="M15.128 15.522h-.783a.392.392 0 110-.783h.783a.392.392 0 110 .783z">
+                      </path>
+                    </g>
+                    <g data-name="Line 2189">
+                      <path data-name="Path 20324" d="M18.258 15.522h-.78a.392.392 0 110-.783h.78a.392.392 0 110 .783z">
+                      </path>
+                    </g>
+                  </g>
+                </svg>
+                <p>Khách sạn</p>
+              </a>
+    
+              <a class="ticket" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M6.46 17.25a.59.59 0 01-.25-.07l-4-2.44a.47.47 0 01-.04-.74l1.09-.9a.45.45 0 01.47-.1l2.89 1.08 2.6-1.56-3.67-3.15A.48.48 0 015.38 9a.49.49 0 01.23-.37L7 7.77a.49.49 0 01.44 0L13 10.25l5-3.05a3.07 3.07 0 013.58.28 1.49 1.49 0 01.23.28 1.13 1.13 0 01-.4 1.54l-8 4.8-6.75 3.1a.46.46 0 01-.2.05zm-3.17-3l3.21 2 6.55-3L21 8.48a.18.18 0 000-.24A2.13 2.13 0 0018.53 8l-5.28 3.2a.46.46 0 01-.44 0L7.27 8.71l-.6.36 3.67 3.16a.44.44 0 01.16.4.46.46 0 01-.23.37l-3.36 2a.49.49 0 01-.41 0l-2.85-1z"
+                    data-name="Group 12"></path>
+                </svg>
+                <p>Vé máy bay</p>
+              </a>
+              <a class="car" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <g id="Group_27922" data-name="Group 27922" transform="translate(12829 11763)">
+                    <rect id="Rectangle_4401" data-name="Rectangle 4401" width="24" height="24"
+                      transform="translate(-12829 -11763)" fill="none"></rect>
+                    <g id="Group_27849" data-name="Group 27849" transform="translate(-12826 -11758.998)">
+                      <g id="Group_27829" data-name="Group 27829" transform="translate(0 -0.002)">
+                        <g id="Path_20056" data-name="Path 20056">
+                          <path id="Path_20108" data-name="Path 20108"
+                            d="M1.864,15.145H1.112A1.113,1.113,0,0,1,0,14.034V9.282A1.875,1.875,0,0,1,.381,8.153L2.616,5.218l1.449-3.85A1.972,1.972,0,0,1,5.787.151a33.855,33.855,0,0,1,6.443,0,1.954,1.954,0,0,1,1.7,1.206l1.453,3.86,2.235,2.935A1.868,1.868,0,0,1,18,9.278V14.03a1.114,1.114,0,0,1-1.11,1.111h-.752a1.113,1.113,0,0,1-1.112-1.111V12.888H2.974v1.146A1.114,1.114,0,0,1,1.864,15.145ZM9,.718c-1.057,0-2.112.05-3.159.151a1.25,1.25,0,0,0-1.1.764L3.271,5.521a.365.365,0,0,1-.05.091L.954,8.589a1.148,1.148,0,0,0-.234.693v4.752a.392.392,0,0,0,.392.391h.752a.393.393,0,0,0,.391-.391V12.528a.36.36,0,0,1,.36-.36H15.386a.36.36,0,0,1,.36.36v1.5a.391.391,0,0,0,.392.391h.752a.393.393,0,0,0,.391-.392V9.278a1.148,1.148,0,0,0-.234-.689h0L14.779,5.612a.365.365,0,0,1-.05-.091l-1.467-3.9A1.236,1.236,0,0,0,12.18.87Q10.59.718,9,.718Z"
+                            transform="translate(0 0.002)"></path>
+                        </g>
+                        <g id="Path_20057" data-name="Path 20057" transform="translate(12.571 8.36)">
+                          <path id="Path_20109" data-name="Path 20109"
+                            d="M19.826,14H18.14a.375.375,0,0,1,0-.75h1.686a.278.278,0,0,0,.278-.278v-.906a.375.375,0,1,1,.75,0v.906A1.029,1.029,0,0,1,19.826,14Z"
+                            transform="translate(-17.765 -11.694)"></path>
+                        </g>
+                        <g id="Path_20058" data-name="Path 20058" transform="translate(2.339 8.36)">
+                          <path id="Path_20110" data-name="Path 20110"
+                            d="M5.832,14H4.146a1.029,1.029,0,0,1-1.029-1.028v-.906a.375.375,0,1,1,.75,0v.906a.278.278,0,0,0,.278.278H5.832a.375.375,0,0,1,0,.75Z"
+                            transform="translate(-3.117 -11.694)"></path>
+                        </g>
+                        <g id="Path_20059" data-name="Path 20059" transform="translate(2.34 5.4)">
+                          <path id="Path_20111" data-name="Path 20111"
+                            d="M16.084,8.264H3.473a.376.376,0,0,1,0-.75H16.084a.376.376,0,0,1,0,.75Z"
+                            transform="translate(-3.118 -7.514)"></path>
+                        </g>
+                        <g id="Path_20060" data-name="Path 20060" transform="translate(0 3.883)">
+                          <path id="Path_20112" data-name="Path 20112"
+                            d="M2.714,7.739H1.155a1.155,1.155,0,0,1,0-2.309H3.493a.375.375,0,0,1,.336.543l-.78,1.558A.374.374,0,0,1,2.714,7.739ZM1.155,6.18a.4.4,0,1,0,0,.809H2.482l.4-.809Z"
+                            transform="translate(0 -5.43)"></path>
+                        </g>
+                        <g id="Path_20061" data-name="Path 20061" transform="translate(14.13 3.883)">
+                          <path id="Path_20113" data-name="Path 20113"
+                            d="M22.557,7.739H21a.374.374,0,0,1-.335-.208l-.78-1.558a.375.375,0,0,1,.335-.543h2.339a1.155,1.155,0,1,1,0,2.309Zm-1.328-.75h1.328a.4.4,0,1,0,0-.809H20.825Z"
+                            transform="translate(-19.843 -5.43)"></path>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <p>Cho thuê xe</p>
+              </a>
+              <a class="shopping" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M20 20.6c0 .7-.5 1.3-1.2 1.4H5.3c-.7 0-1.3-.6-1.3-1.3l.8-13.1c.1-.7.6-1.3 1.3-1.2h2.5v-1c0-.9.4-1.8 1-2.4.7-.6 1.5-1 2.4-1 .9 0 1.8.3 2.4 1 .7.6 1 1.5 1 2.4v1h2.5c.7 0 1.3.5 1.3 1.2l.8 13zM9.5 6.4h5v-1C14.5 4 13.4 3 12 3c-.7 0-1.3.3-1.8.7-.4.4-.7 1.1-.7 1.7v1zM19 20.7l-.7-13c0-.2-.2-.3-.4-.3h-2.5v1c0 .3-.2.5-.5.5s-.5-.2-.5-.5v-1h-5v1c0 .3-.2.5-.5.5s-.4-.3-.4-.6v-1H6.1c-.2 0-.3.1-.4.3L5 20.7c0 .2.1.3.3.3h13.4c.1 0 .2 0 .2-.1.1 0 .1-.1.1-.2z">
+                  </path>
+                </svg>
+                <p>Mua sắm</p>
+              </a>
+            </div>
+    
+            <div class="right">
+              <a class="wallet" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    d="M21.1 15v4.1c0 .5-.4.8-.9.8H3.7m0-12.5h16.6c.5 0 .9.4.9.8v3.3M2 7.5v10.7M3.7 4C2.8 4 2 4.7 2 5.6s.7 1.7 1.6 1.7h.1M2 8.1V5.7m16.3 1.6V4.8c0-.5-.4-.8-.9-.8H3.7M2 18.3c0 .9.8 1.7 1.7 1.7m12.2-5.1c-.9 0-1.7-.7-1.7-1.6s.7-1.7 1.6-1.7h.1m.1 3.3h5.1c.5 0 .8-.4.9-.8v-1.7c0-.5-.4-.8-.9-.8H16">
+                  </path>
+                </svg>
+              </a>
+    
+              <a class="messenger" href=""></a>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" focusable="false" viewBox="0 0 24 24"
+                aria-hidden="true">
+                <g data-name="Group 28281">
+                  <path data-name="Rectangle 4485" fill="none" d="M0 0h24v24H0z"></path>
+                  <g data-name="Group 28280">
+                    <g data-name="Layer 4">
+                      <path data-name="Path 20325"
+                        d="M12.02 22a10.092 10.092 0 01-2.166-.236 10 10 0 117.537-1.344l-.16-.251.16.251A9.938 9.938 0 0112.02 22zm-.035-19.406a9.4 9.4 0 107.94 4.334 9.354 9.354 0 00-7.94-4.334z"
+                        stroke="currentColor" stroke-width="0.2"></path>
+                    </g>
+                    <g data-name="Layer 5">
+                      <g data-name="Group 28275">
+                        <g data-name="h logo">
+                          <g data-name="Group 8970">
+                            <path data-name="Path 14262" d="M13.847 10.246"></path>
+                          </g>
+                          <g data-name="Group 8971">
+                            <path data-name="Path 14263"
+                              d="M14.284 12.983l-.066-.051-3.844-3.693-.091-.047a1.218 1.218 0 00-.22.037l-1.089.336a.253.253 0 00-.152.278c.008.03.021.034.049.064l3.84 3.815a1.525 1.525 0 00.4.331.839.839 0 00.55.126.817.817 0 00.5-.171.863.863 0 00.329-.392.523.523 0 00-.131-.541z">
+                            </path>
+                          </g>
+                        </g>
+                        <g data-name="h logo">
+                          <g data-name="h1">
+                            <g data-name="Group 8970">
+                              <path data-name="Path 14262" d="M12.351 11.732"></path>
+                            </g>
+                          </g>
+                          <g data-name="h">
+                            <g data-name="Group 8971">
+                              <path data-name="Path 14263"
+                                d="M12.769 14.618l-.066-.051-5.789-5.856-.091-.046a1.224 1.224 0 00-.223.051l-1.106.411a.289.289 0 00-.156.3c.008.031.021.036.049.066l5.784 5.985a1.439 1.439 0 00.407.332.793.793 0 00.557.107.846.846 0 00.513-.206.983.983 0 00.337-.433.563.563 0 00-.129-.568z">
+                              </path>
+                            </g>
+                          </g>
+                        </g>
+                        <g data-name="Group 28274">
+                          <path data-name="Path 20326"
+                            d="M16.888 9.609c.738-.462 1.79-.527 2.047.552-.641-.382-1.486.409-1.97.922l-1.767 1.873-2.452-2.314c1.777-1.078 3.6-1.843 4.142-1.034"
+                            fill-rule="evenodd"></path>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              </a>
+              <a class="user" href="">
+                <div>
+                  <div>
+                    <div class="MuiBox-root jss203 jss20"><button
+                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall" tabindex="0"
+                        type="button"><span class="MuiIconButton-label">
+                          <div class="jss204"><span class="MuiBadge-root">
+                              <div class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"><svg
+                                  class="MuiSvgIcon-root MuiAvatar-fallback" focusable="false" viewBox="0 0 24 24"
+                                  aria-hidden="true">
+                                  <path
+                                    d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z">
+                                  </path>
+                                </svg></div><span
+                                class="MuiBadge-badge MuiBadge-anchorOriginBottomRightCircle MuiBadge-invisible"></span>
+                            </span></div>
+                        </span><span class="MuiTouchRipple-root"></span></button></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="container-fluid">
+          <div class="row"></div>
+           <div class="left col-sm-4">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+              </div>
+            </div>
+
+           </div>
+           <div class="right col-sm-8">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae itaque non porro assumenda totam ipsum adipisci commodi, omnis architecto necessitatibus deleniti modi libero voluptate similique harum ullam ipsa quisquam cum!
+            Perferendis at fugiat voluptatibus sint non nostrum voluptas quisquam natus corrupti in obcaecati iusto aperiam amet praesentium rerum adipisci ipsam dolorem ullam inventore nihil numquam ea, neque sit. Aliquid, velit!
+            Perferendis sed, autem sapiente eligendi sunt magni, corrupti animi inventore quisquam molestiae a assumenda nemo! Minima soluta laborum eum voluptatum. Aliquid saepe atque eveniet, nobis optio quis culpa placeat id?
+            Perspiciatis molestias, vitae, commodi qui neque quia architecto omnis, soluta dolorum vero fugit sint? Dolores inventore ea cupiditate, iure totam necessitatibus consectetur commodi quis sapiente, vel, recusandae maiores cumque voluptates?
+            Optio culpa suscipit nesciunt, eaque, labore eveniet aut iure rerum consectetur quos, doloribus molestias sit sunt placeat officia nemo harum quae similique! Eos tenetur obcaecati exercitationem doloribus deleniti a explicabo?
+            Ducimus nostrum beatae reprehenderit quaerat eveniet culpa velit debitis aut minus eum expedita maxime cumque repellendus libero perspiciatis ullam exercitationem illo quos illum aperiam molestiae, quam quis, laudantium magni? Provident.
+            Alias, nobis ullam architecto impedit illum eligendi ducimus ad est omnis? Minus dolorum odit corrupti provident natus quaerat in voluptatem consequatur deleniti. Et dicta minus, numquam aut quod ex! Dolor.
+            Sunt fugiat ullam quae sed ut assumenda et, consequuntur pariatur, animi iure dolores minima ex quo in? Saepe porro adipisci perferendis sapiente, sint similique neque unde doloribus voluptates, provident voluptas?
+            Cupiditate dolorem cum itaque, possimus provident, nisi molestias eaque tempora mollitia quia eos exercitationem voluptas repudiandae assumenda dignissimos minus! Laudantium nulla saepe mollitia, dignissimos vitae doloremque numquam qui minima sint!
+            Voluptatem animi repellat, deserunt officia sit iste. Deleniti ipsum suscipit adipisci doloribus dolor quia eaque assumenda aspernatur consectetur optio, nisi repellat quidem at ratione earum minus. Recusandae saepe dignissimos illo.
+            Aspernatur accusantium magni quaerat praesentium libero, ut corporis inventore quis nobis enim quod, dignissimos in vero rerum, amet id recusandae sequi quos totam aliquam facilis. Veniam in voluptatem assumenda modi.
+            Amet dolorem quisquam, nemo sed itaque provident eligendi in placeat dicta laboriosam consequuntur quae. Dicta impedit esse magni fugiat officiis suscipit, placeat in mollitia quo, veniam quos dolorem repudiandae. Voluptatem.
+            Dolorem cum laudantium illum in aut ut sit sunt sint ea nemo ipsum delectus voluptates atque magni at, blanditiis vitae, provident modi aspernatur nulla ipsa voluptatibus. Delectus non iste placeat.
+            Similique recusandae quaerat amet distinctio minus porro explicabo quasi tempore doloremque modi reprehenderit rerum accusantium sapiente aliquid ea a vitae ab ipsam id quibusdam, dolores laboriosam cumque maxime impedit! Animi!
+            Nesciunt dolorem unde architecto ea. Beatae aperiam pariatur deserunt, blanditiis itaque nisi voluptas praesentium eum quos, illum totam vero quisquam, corrupti omnis. Neque et reprehenderit dignissimos eius natus ut perferendis.
+            Esse natus ratione debitis reprehenderit cupiditate sit hic, quisquam perferendis tenetur similique obcaecati, ex harum, veritatis sunt beatae vel? Cumque laboriosam sequi atque, ratione officiis aliquam necessitatibus. Suscipit, repudiandae temporibus.
+            Eveniet nam ut ipsam laboriosam. Sit earum, autem rerum inventore est culpa eum quisquam officia magni, error magnam ipsam a tempore et, nisi cumque saepe nemo non ea repellat repellendus!
+            Dignissimos dolor numquam voluptates placeat eius, ab asperiores rem iusto sapiente, aspernatur commodi possimus eum quidem necessitatibus fugiat aperiam dolorum! Cum, laborum. Quos quae iusto inventore perferendis dignissimos odio. Delectus.
+            Error voluptas corporis quidem ratione quis dolorum tenetur maxime magnam beatae quae reprehenderit eligendi ipsam unde, a accusantium praesentium et temporibus. Fuga tempore asperiores tenetur eos laudantium sequi explicabo voluptatem.
+            Quibusdam fugit totam similique illum inventore velit explicabo reiciendis dolore, nisi perferendis beatae magni repellendus a officiis sequi omnis corporis est earum assumenda, esse provident. Quaerat aspernatur suscipit voluptatem. Nobis.
+            Enim earum doloremque cupiditate optio tempora, consectetur sapiente distinctio vitae. Necessitatibus iure odio ea temporibus totam, veritatis aliquam deserunt consectetur facilis voluptates id quibusdam cumque deleniti? Praesentium aliquam ipsum cupiditate!
+            Qui nihil, iste cumque earum animi nobis quis quasi ut eaque vel accusamus corporis voluptatibus eveniet possimus labore harum. Facilis quod, perferendis hic at inventore eligendi atque tempora? Sit, impedit?
+            Inventore nisi amet qui porro distinctio incidunt quo sapiente! Animi amet inventore, possimus ratione quas saepe rerum facilis, id minus accusantium magnam mollitia nam quasi iure in eaque veritatis facere!
+            At non blanditiis nisi soluta animi inventore ad in eveniet, omnis natus deserunt, tempore enim iste sint, quia accusamus maxime. Distinctio labore eius id voluptatem esse odio repellendus illo error?
+            Quis deserunt, quo repudiandae possimus voluptatum et aliquam aut dolore cumque perferendis dolor porro saepe error quibusdam unde illo suscipit mollitia itaque vitae quae labore? Eos id eum illo ullam!
+            Recusandae minus nostrum odio odit ullam et, necessitatibus, cum numquam assumenda aliquid suscipit vitae dicta sapiente aut corporis in laboriosam veritatis ut provident. Ipsa totam facilis placeat ab omnis tempore?
+            Necessitatibus qui fugiat ab perferendis vel pariatur cum accusantium suscipit. Ex repellendus hic quasi quibusdam libero soluta perferendis sit, eius vel nemo qui voluptate. Eos quod dolorum temporibus odit consequatur.
+            Fugit, distinctio, libero quo aperiam animi consectetur veniam dolores nam quis voluptas ducimus obcaecati! Aspernatur perspiciatis tenetur iste, asperiores nesciunt laborum qui quia eum alias ullam eveniet iusto quasi temporibus.
+            Architecto eaque eius, ipsa pariatur laborum consequatur blanditiis quo quod, voluptate, distinctio magni deserunt earum provident aspernatur veniam iste maxime accusantium error ut libero. Mollitia asperiores expedita quam in autem.
+            Veniam ab similique natus quidem facere consectetur quam error dolorem minus exercitationem atque fugiat, esse magni facilis veritatis totam inventore? Sunt cumque suscipit nostrum inventore hic officia laborum incidunt dolorem!
+            Animi quae hic illum totam delectus fugiat commodi perspiciatis laboriosam ducimus architecto officiis sint placeat, ad ratione rerum expedita voluptas doloribus officia dolor! Aspernatur, nam? Laboriosam neque consectetur exercitationem eum.
+            Aut provident sunt commodi eveniet ut aliquam nostrum dicta veritatis placeat, nisi, tempora sequi ullam molestias consequatur, quam odit mollitia magni. Praesentium ullam corporis quod quos dolor accusantium neque minus.
+            Sint in pariatur, neque voluptate velit voluptas, labore temporibus iure ipsam sed doloribus corrupti repellat numquam possimus exercitationem similique natus soluta fuga! Corporis eligendi nisi placeat, laboriosam iure nam aut!
+            Magni ipsam accusamus labore recusandae adipisci assumenda perferendis laboriosam, minima sint excepturi, aut quia vero dolorem deleniti? Deserunt, voluptatibus reprehenderit consequuntur ipsa magni obcaecati totam accusantium iure quas ipsum? Error?
+            Accusamus reiciendis nam, porro impedit quidem at quod sunt voluptatum odio sequi esse quibusdam iste veritatis voluptate similique ipsum doloribus, nulla repellendus nihil cupiditate deserunt odit voluptates? Consectetur, rem vero.
+            Quae sit expedita voluptate possimus accusamus esse impedit ipsa aut, temporibus, placeat obcaecati perspiciatis neque illum deserunt molestiae veritatis voluptas vitae! Hic veritatis dolore molestias labore dignissimos dolor sint ab?
+            Ipsam itaque iusto nulla magni corrupti qui libero error, blanditiis sed voluptatem harum, aliquam dicta atque repellendus officia! Nostrum quidem corrupti impedit odio officia? Accusamus esse pariatur error. Rerum, assumenda?
+            Illo fuga molestiae omnis dolore consequatur quam recusandae, neque obcaecati possimus nihil eum tempore nulla veritatis, perspiciatis cum. Tenetur harum, sunt porro iste modi recusandae ullam dolorum nam dicta. Vel.
+            Facilis sequi cupiditate itaque dolorum nesciunt fugit neque voluptatum tempora explicabo accusamus quas consequuntur assumenda harum totam ipsam fugiat dignissimos suscipit incidunt deleniti, omnis temporibus fuga? Autem vitae maiores est.
+            Eligendi quia et nostrum quos dignissimos ipsam eum? Recusandae, amet ut ad expedita quod facere voluptate nobis aliquam unde similique optio beatae quia repudiandae sint maiores neque velit ullam excepturi.
+            Ex, et aut. Aliquam nisi rerum, tenetur corporis unde eius voluptate maiores. Blanditiis, cumque? Tenetur distinctio fugiat placeat minima, eveniet consequuntur aliquam vitae mollitia dolorum ipsam natus dignissimos nihil assumenda!
+            Dignissimos cum doloremque possimus consequatur labore facilis ut ipsa voluptas rem debitis. Dolorum nobis veritatis molestiae magni possimus aspernatur debitis, corporis facere atque, pariatur temporibus. Eius dolores iusto quasi eveniet.
+            Delectus debitis eligendi, non harum reprehenderit optio neque animi laboriosam, nulla obcaecati, in magnam velit! Pariatur ratione nisi nobis ut iste explicabo, aspernatur dolorum, ex cumque omnis at, officia debitis!
+            Voluptatibus ab consectetur deserunt tempore neque laboriosam illo veritatis, tenetur recusandae, corporis dignissimos odio aperiam illum adipisci! Quae deserunt rerum ipsa asperiores, molestiae corporis itaque placeat. Nostrum reprehenderit nam voluptatibus.
+            Repudiandae culpa vero, dolore similique cum tempora odio est incidunt temporibus ut, vel odit debitis molestiae eos maxime consectetur esse autem dicta dolorem, perspiciatis aspernatur? Expedita tenetur fugiat numquam assumenda!
+            Officiis, recusandae earum obcaecati voluptate totam error unde placeat explicabo, repudiandae magni consequuntur neque ut dolor dignissimos atque perferendis quisquam fugiat provident dolore repellendus sunt quidem. Porro consectetur quasi soluta.
+            Voluptate molestias ut exercitationem expedita mollitia cum dignissimos est sequi corporis pariatur numquam eius nobis quaerat molestiae, repellendus labore omnis incidunt! Ut doloremque totam quae fuga, eius saepe est voluptatibus.
+            Fuga non aperiam odio architecto praesentium consectetur dolorem voluptatibus culpa asperiores, nobis, itaque neque. Quia vel officiis harum commodi nisi illo nostrum totam, voluptates in, est quas voluptate dicta accusantium.
+            Quisquam rem illo a aspernatur molestias, in beatae doloribus, tempora quae ut saepe tenetur, nihil voluptates porro? Praesentium aliquid nam mollitia quisquam, illum cupiditate soluta, eligendi voluptatem veniam tempore tenetur?
+            Iste voluptas ratione sint facere dolore suscipit. Aut exercitationem dolorum est iure saepe dignissimos tempora enim, unde sed ipsam nulla nemo labore nostrum odit quibusdam similique. Ipsam, labore perferendis. Dolor.</p>
+           </div>
+          </div>   
+        </div>
+      </main>
+      <div class="fooder_container">
+          
+      </div>
+</body>
+</html>
