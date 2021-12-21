@@ -34,7 +34,7 @@ header > nav .container-fluid .middle a{
     height: 191px;
 }
 .bg-light{
-    background-image: url("https://f5.photo.talk.zdn.vn/2685029495286278930/2dfa362ea43f6e61372e.jpg");
+    background-image: url("http://cdn.reatimes.vn/mediav2/media_old/upload/Daz8bLLgWiyONlYhLXFY7g/files/cac-mau-bungalow-trong-resort-5.jpg");
     background-repeat: no-repeat;
     background-position: right top;
 }
@@ -44,4 +44,9 @@ header > nav .container-fluid .middle a{
 }
 .container_fluid .row{
     margin-top: 17px;
+}
+.bg-light .container-fluid .text 
+{
+    padding-top: 20px ;
+    margin-left: 20px;
 }
