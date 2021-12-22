@@ -359,7 +359,38 @@
                   </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  <div class="accordion-body"><head>
+                    <!-- RegalCalendar main stylesheet -->
+                    <link href="css/RegalCalendar.css" rel="stylesheet" />
+                    <!-- Fontawesome icons stylesheet -->
+                    <link href="css/all.min.css" rel="stylesheet" />
+                    <!-- Mapbox stylesheet, required for display maps -->
+                    <link href="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css" rel="stylesheet" />
+                    <!-- Mapbox javascript, required for display maps -->
+                    <script src="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js"></script>
+                    <script src="js/jquery-3.4.1.min.js"></script>
+                    <script src="js/RegalCalendar.js"></script>
+                    <script>
+                        $(function() {
+                            $('#rCalendar').RegalCalendar();
+                        });
+                    </script>
+                </head>
+                <body>
+                    <div id="rCalendar" class="regalcalendar">
+                        <span 
+                            class="event" 
+                            data-title="Event 2" 
+                            data-location="France" 
+                            data-date="11/01/2021" 
+                            data-time="12:00" 
+                            data-icon="fa fa-award" 
+                            data-types="country" 
+                            data-preview="Award">
+                            <!-- Event description -->
+                        </span>
+                    </div>
+                </body></div>
                 </div>
               </div>
               <div class="accordion-item">
