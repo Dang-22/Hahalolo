@@ -1,33 +1,4 @@
-header {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-
-header > nav .container-fluid{
-    margin: 0px;
-    padding: 0 24px;
-    height: 64px;
-    width: 100%;
-
-}
-header > nav .container-fluid .middle a{
-   display: table-cell;
-   padding: 16px 8px;
-}
-
-header > nav .container-fluid .middle span.circle::before{
-    top: 4px;
-    left: 8px;
-    width: 24px;
-    height: 24px;
-    content: "";
-    z-index: 0;
-    position: absolute;
-    border-radius: 50%;
-    background-color: rgb(134 243 255 / 30%);
-}
     .header_container{
     margin-top: 60px ;
 }
@@ -66,7 +37,6 @@ header > nav .container-fluid .middle span.circle::before{
 {
     padding-top: 20px ;
     margin-left: 20px;
-<<<<<<< HEAD
 }
 
 
@@ -77,34 +47,26 @@ header > nav .container-fluid .middle span.circle::before{
   border-radius: 20px;
   top: 10px;
   
-=======
-<<<<<<< HEAD
-=======
->>>>>>> e2b0d5715cf6de076ab07219ffa4247290648daf
 
->>>>>>> 7c09812f7c782f6299431bf059c1a3e1cb5b9114
 }
 
-<<<<<<< HEAD
-.image {
+HEAD .image {
   width: inherit;
 }
-=======
-/* css footer  */
+
+
 
   
-<<<<<<< HEAD
 header {
     width: 90%;
     max-width: 1240px;
     margin: 0 auto;
   }
-.band {
-=======
+
 
   
-  .band {
->>>>>>> 7c09812f7c782f6299431bf059c1a3e1cb5b9114
+.band {
+
     width: 90%;
     max-width: 1240px;
     margin: 0 auto;
@@ -176,12 +138,7 @@ header {
       background-size: cover;
       background-position: center center;
     }
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 7c09812f7c782f6299431bf059c1a3e1cb5b9114
-  
   .item-1 {
     @media (min-width: 60em) {
       grid-column: 1 / span 2;
@@ -191,7 +148,6 @@ header {
       }
     }
   }
-<<<<<<< HEAD
 
 
 /* hotel-detail */
@@ -209,6 +165,4 @@ header {
 .footer_container .footer_container .content_item .card-body{
     height: 191px;
 }
-=======
->>>>>>> 7c09812f7c782f6299431bf059c1a3e1cb5b9114
->>>>>>> e2b0d5715cf6de076ab07219ffa4247290648daf
+
