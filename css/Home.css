@@ -1,6 +1,7 @@
 header {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 
@@ -16,7 +17,18 @@ header > nav .container-fluid .middle a{
    padding: 16px 8px;
 }
 
-.header_container{
+header > nav .container-fluid .middle span.circle::before{
+    top: 4px;
+    left: 8px;
+    width: 24px;
+    height: 24px;
+    content: "";
+    z-index: 0;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(134 243 255 / 30%);
+}
+    .header_container{
     margin-top: 60px ;
 }
  
@@ -38,6 +50,7 @@ header > nav .container-fluid .middle a{
 .bg-light{
     background-image: url("http://cdn.reatimes.vn/mediav2/media_old/upload/Daz8bLLgWiyONlYhLXFY7g/files/cac-mau-bungalow-trong-resort-5.jpg");
     background-repeat: no-repeat;  
+    background-size: 800px;
     background-position: right top;
 }
 .bg-light .container_fluid{
@@ -46,21 +59,52 @@ header > nav .container-fluid .middle a{
 }
 .container_fluid .row{
     margin-top: 17px;
-    border-radius: 4px;
+    border-radius: 4px;  
+
 }
 .bg-light .container-fluid .text 
 {
     padding-top: 20px ;
     margin-left: 20px;
-
+<<<<<<< HEAD
 }
 
+
+/* css nút bấm  */
+
+.button {
+  margin: auto;
+  border-radius: 20px;
+  top: 10px;
+  
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> e2b0d5715cf6de076ab07219ffa4247290648daf
+
+>>>>>>> 7c09812f7c782f6299431bf059c1a3e1cb5b9114
+}
+
+<<<<<<< HEAD
+.image {
+  width: inherit;
+}
+=======
 /* css footer  */
 
   
+<<<<<<< HEAD
+header {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+.band {
+=======
 
   
   .band {
+>>>>>>> 7c09812f7c782f6299431bf059c1a3e1cb5b9114
     width: 90%;
     max-width: 1240px;
     margin: 0 auto;
@@ -79,7 +123,7 @@ header > nav .container-fluid .middle a{
     }
   }
   
-  .card {
+ .card {
     background: white;
     text-decoration: none;
     color: #444;
@@ -95,7 +139,7 @@ header > nav .container-fluid .middle a{
   }
     :hover {
       top: -2px;
-      box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+      box-shadow : 0 4px 5px rgba(0,0,0,0.2);
     }
     
     article {
@@ -132,7 +176,11 @@ header > nav .container-fluid .middle a{
       background-size: cover;
       background-position: center center;
     }
+<<<<<<< HEAD
+
+=======
   
+>>>>>>> 7c09812f7c782f6299431bf059c1a3e1cb5b9114
   
   .item-1 {
     @media (min-width: 60em) {
@@ -143,3 +191,24 @@ header > nav .container-fluid .middle a{
       }
     }
   }
+<<<<<<< HEAD
+
+
+/* hotel-detail */
+.main .row .right .button_right{
+  display: flex;
+  justify-content:space-between;
+  border-radius: 10px;
+}
+.footer_container .footer_container .content_item {
+  padding: 8px;
+}
+.footer_container .footer_container .content_item .img {
+    height: 154px;
+}
+.footer_container .footer_container .content_item .card-body{
+    height: 191px;
+}
+=======
+>>>>>>> 7c09812f7c782f6299431bf059c1a3e1cb5b9114
+>>>>>>> e2b0d5715cf6de076ab07219ffa4247290648daf
