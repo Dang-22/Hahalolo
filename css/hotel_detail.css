@@ -1,0 +1,23 @@
+/* css footer */
+/* .footer_container{
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+.content_item{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.footer_container .row .content_item{
+    padding: 8px;
+}
+.content_item .card img{
+    height: 154px;
+}
+.content_item .card-body{
+    height: 191px;
+}
+.right .button_right .button_item{
+    margin-right: 10px;
+    background-color: white;
+}

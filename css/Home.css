@@ -21,7 +21,7 @@
 .bg-light{
     background-image: url("http://cdn.reatimes.vn/mediav2/media_old/upload/Daz8bLLgWiyONlYhLXFY7g/files/cac-mau-bungalow-trong-resort-5.jpg");
     background-repeat: no-repeat;  
-    background-size: 800px;
+    background-size: 700px;
     background-position: right top;
 }
 .bg-light .container_fluid{
@@ -165,4 +165,9 @@ header {
 .footer_container .footer_container .content_item .card-body{
     height: 191px;
 }
-
+.container-Card-root{
+  background-color: white;
+}
+.container-item{
+  margin-right: 20px;
+}

@@ -248,11 +248,11 @@
             <button>
               xem trên bản đồ
             </button>
-            <div class="button_right">
-              <button>Tổng quan</button>
-              <button>Thông tin phòng và giá</button>
-              <button>tiện nghi</button>
-              <button>Quy tắc chung</button>
+            <div class="button_right d-flex">
+              <button class = "button_item" >Tổng quan</button>
+              <button class = "button_item">Thông tin phòng và giá</button>
+              <button class = "button_item">tiện nghi</button>
+              <button class = "button_item">Quy tắc chung</button>
             </div>
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -274,13 +274,13 @@
     </div>
   </main>
 
-  <div class="footer_container">
+  <div class="footer_container ">
     <div class="footer_container mt-4">
       <h4>Những chỗ nghỉ phổ biến và tương tự với khách sạn HAMPTON INN UTICA</h4>
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
+          <div class="carousel-item active ">
+            <div class="row ">
               <div class="content_item col-grid-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card">
                   <img src="./img/ARTS-SAIGONjpg.jpg" alt="...">

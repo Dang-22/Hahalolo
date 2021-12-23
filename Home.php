@@ -8,8 +8,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/Home.css">
-  <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./IncludeItem/Header.css">
+
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
     rel="stylesheet">
 
@@ -28,10 +28,74 @@
         <h4 style="font-family: 'Roboto', sans-serif">Tìm nơi dừng chân hoàn hảo cùng Hahalolo!</h4>
         <h6>Từ những khu nghỉ dưỡng thanh bình đến những căn hộ sang trọng hiện đại</h6>
       </div>
+      <!-- tìm kiếm -->
+      <div class="container-Card-root jss116 " >
+        <div class="Grid-justify-xs-center d-flex">
+            <div class="container-item-check">
+                <div class="Grid-root ">                   
+                    <div class="Grid-root Grid-item Grid-grid-xs-true">                  
+                            <div class="Box-root jss218 jss122">                               
+                                    <div class="TextField-root jss125 jss124">
+                                        <label class="FormLabel-root " data-shrink="true"><span>Bạn muốn ở đâu?</span></label>
+                                        <div class="Input-root ">                                       >                                         
+                                            <input aria-invalid="false" placeholder="Nhập nơi bạn muốn đến" type="text" class="InputBase-input" value="" />                                           
+                                        </div>
+                                    </div>                               
+                            </div>                     
+                    </div>
+                </div>
+            </div>
+            <div class="container-item-check">
+                <div class="Grid-root ">
+                    <div class="Grid-root jss117"></div>
+                    <div class="Grid-grid-xs-true">
+                        <div class="TextField-root jss125 jss124 " format="EEE, dd/MM/yyyy">
+                            <label class="InputLabel-root "><span>Ngày nhận phòng</span></label>
+                            <div class="InputBase-root ">                           
+                                <input aria-invalid="false" readonly="" type="text" class="InputBase-inputAdornedStart" value="Thứ 5, 23/12/2021" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-item-check">
+                <div class="b">
+                    <div class="c jss117 "></div>
+                    <div class="f">
+                        <div class="g" format="EEE, dd/MM/yyyy">
+                            <label class="j" data-shrink="true"><span>Ngày trả phòng</span></label>
+                            <div class="jj">
+                                <div class="aa-icon">
+                                </div>
+                                <input aria-invalid="false" readonly="" type="text" class="date_item" value="Thứ 6, 24/12/2021" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-item-check">
+               <div class="row">
+                <div class="left col-grid-xs-12 col-sm-6">
+                   <button class="Button-root jss109" type="button">
+                    <span class="Button-label"><span>Tìm kiếm</span></span>
 
-      <div>
-        tìm kiếm
-      </div>
+                   </button>
+                <div class="Box-root jss220">
+                  <button class="Button-root jss109"  type="button">
+                    <span class="Button-label">Tra cứu đặt phòng</span>
+                  
+                </button>
+            </div>
+        </div>
+
+
+
+
+          
+        
+    </div>
+
+
 
       <h5 class="mt-5 mb-3">Chỗ nghỉ nổi bật</h5>
 
@@ -238,10 +302,6 @@
 
 
       </div>
-
-
-
-
     </div>
       
   </main>
