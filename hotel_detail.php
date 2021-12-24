@@ -10,8 +10,6 @@
   <link rel="stylesheet" href="css/hotel_detail.css">
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./IncludeItem/Header.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
-    rel="stylesheet">
   <title>tìm kiếm</title>
 </head>
 

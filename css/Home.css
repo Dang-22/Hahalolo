@@ -33,10 +33,14 @@
     border-radius: 4px;  
 
 }
-.bg-light .container-fluid .text 
+.bg-light .container-fluid .text .text1
 {
-    padding-top: 20px ;
+    margin-top: 20px;
     margin-left: 20px;
+    font-size: 50px;
+}
+section{
+  margin-top:20px;
 }
 
 
@@ -148,26 +152,3 @@ header {
       }
     }
   }
-
-
-/* hotel-detail */
-.main .row .right .button_right{
-  display: flex;
-  justify-content:space-between;
-  border-radius: 10px;
-}
-.footer_container .footer_container .content_item {
-  padding: 8px;
-}
-.footer_container .footer_container .content_item .img {
-    height: 154px;
-}
-.footer_container .footer_container .content_item .card-body{
-    height: 191px;
-}
-.container-Card-root{
-  background-color: white;
-}
-.container-item{
-  margin-right: 20px;
-}
