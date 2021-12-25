@@ -8,7 +8,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/hotel_detail.css">
-  <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./IncludeItem/Header.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
     rel="stylesheet">
@@ -21,7 +20,7 @@
     crossorigin="anonymous"></script>
  
   <header>
-    <?php include "./IncludeItem/Header.html" ?>
+    <?php include "IncludeItem/Header.php" ?>
   </header>
   <main class="main bg-light">
     <div class="container-sm bg-light">
@@ -274,7 +273,7 @@
     </div>
   </main>
 
-  <div class="footer_container">
+  <div class="footer container-sm">
     <div class="footer_container mt-4">
       <h4>Những chỗ nghỉ phổ biến và tương tự với khách sạn HAMPTON INN UTICA</h4>
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
