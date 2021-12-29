@@ -89,3 +89,16 @@ hr:hover {
 hr:not([size]) {
     height: 3px;
 }
+
+.anhphong {
+    border-right: solid 1px rgba(206, 202, 202, 0.973);
+}
+.khungdatphong {
+    border: solid 2px rgb(231, 108, 7);
+}
+.khungdatphong :hover {
+    
+}
+.khungdatphongbenduoi {
+    border: solid 2px rgb(216, 212, 208);
+}
