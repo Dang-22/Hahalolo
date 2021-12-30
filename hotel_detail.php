@@ -35,20 +35,15 @@
               Bạn muốn ở đâu?
               <div class="select-option">
                 <i class="fas fa-map-marker-alt"></i>
-
                 <select class="form-select-01 border-0 " aria-label="Default select example">
-                  <option selected>
-
-                  </option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  <option selected>Chọn nơi bạn muốn đến</option>
+                  <option value="1">Fairfield Inn and Stes Marriott</option>
+                  <option value="2">Hampton Inn Utica</option>
+                  <option value="3">Vissai SAIGON Hottel</option>
                 </select>
               </div>
               <hr>
-
               Ngày nhận phòng
-
               <div class="search_box_date search_box_item">
                 <div class="input-group date datepicker">
                   <span class="input-group-append">
@@ -60,7 +55,6 @@
                 </div>
               </div>
               Ngày trả phòng
-
               <div class="search_box_date search_box_item">
                 <div class="input-group date datepicker">
                   <span class="input-group-append">
@@ -71,27 +65,21 @@
                   <input type="text" class="form-control">
                 </div>
               </div>
-
-
               Số người
               <div class="select-option">
-              <i class="fas fa-users"></i>
-              <select class="form-select-01 border-0" aria-label="Default select example">
-                <option selected></option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+                <i class="fas fa-users"></i>
+                <select class="form-select-01 border-0" aria-label="Default select example">
+                  <option selected>1 người lớn - 0 trẻ em - 1 phòng</option>
+                  <option value="1">2 người lớn - 0 trẻ em - 1 phòng</option>
+                  <option value="2">2 người lớn - 1 trẻ em - 1 phòng</option>
+                </select>
               </div>
               <hr>
-
               <button class="btnSearch">
                 Tìm kiếm
               </button>
             </div>
-
           </div>
-
         </div>
         <div class="right col-sm-9 mt-9">
           <h1>HAMPTON INN UTICA</h1>
@@ -119,9 +107,51 @@
               </div>
             </div>
 
+            <div class="Searchright">
+              <div class="card">
+                <div class="carditem row">
+                  
+                  <div class="search_box_date search_box_item col">
+                    Ngày nhận phòng
+                    <div class="input-group date datepicker">
+                      <span class="input-group-append">
+                        <span class="input-group-text bg-white d-block">
+                          <i class="fa fa-calendar"></i>
+                        </span>
+                      </span>
+                      <input type="text" class="form-control">
+                    </div>
+                  </div>
+                  
+                  <div class="search_box_date search_box_item col">
+                    Ngày trả phòng
+                    <div class="input-group date datepicker">
+                      <span class="input-group-append">
+                        <span class="input-group-text bg-white d-block">
+                          <i class="fa fa-calendar"></i>
+                        </span>
+                      </span>
+                      <input type="text" class="form-control">
+                    </div>
+                  </div>  
+                  <div class="select-option col">    
+                     Số người       
+                    <i class="fas fa-users"></i>
+                    <select class="form-select border-0" aria-label="Default select example">  
+                      <option selected>1 người lớn - 0 trẻ em - 1 phòng</option>
+                      <option value="1">2 người lớn - 0 trẻ em - 1 phòng</option>
+                      <option value="2">2 người lớn - 1 trẻ em - 1 phòng</option>
+                    </select>
+                  </div>
+                  <hr>
+                  <button class="btnSearch col">
+                    Tìm kiếm
+                  </button>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
-    </div>
     </div>
   </main>
 
