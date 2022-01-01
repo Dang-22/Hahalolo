@@ -60,4 +60,41 @@
     background-color: orange;
     border-radius: 30px;
     
+    
+}
+
+.anhslide {
+    height: 70%;
+    width: 100%;
+    padding: 0px 4px;
+}
+
+.btntimkiem {
+    margin-top: 28px;
+    height: 50px;
+    width: 200px;
+    
+}
+button.btn.btn-warning.text-white.btntimkiem {
+    border-radius: 50px;
+}
+hr:hover {
+    color: black;
+    
+}
+hr:not([size]) {
+    height: 3px;
+}
+
+.anhphong {
+    border-right: solid 1px rgba(206, 202, 202, 0.973);
+}
+.khungdatphong {
+    border: solid 2px rgb(231, 108, 7);
+}
+/*.khungdatphong :hover {
+    
+}*/
+.khungdatphongbenduoi {
+    border: solid 2px rgb(216, 212, 208);
 }
