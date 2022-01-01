@@ -19,7 +19,7 @@
 </div>
 <div class="card container-sm">
   <div class="card-body">
-  <form action="process_register.php">
+  <form action="process_register.php" method="post">
     <h4>Đăng ký</h4>
   <div class="row">
     <div class="form-group col-md-6 mb-4">
