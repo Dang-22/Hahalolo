@@ -1,25 +1,27 @@
 <?php 
   $username = 'dangkhachung10k@gmail.com';
-  $password = 'rpaepunxuzudxftb';
+  $password = 'fcxmkcjbymckwpha';
 
 
 
 
   use PHPMailer\PHPMailer\PHPMailer;
   use PHPMailer\PHPMailer\Exception;
+  use PHPMailer\PHPMailer\SMTP;
   
   require 'PHPMailer/Exception.php';
   require 'PHPMailer/PHPMailer.php';
   require 'PHPMailer/SMTP.php';
 
 
-  function sendEmailForAccountAcctive($email){
+  function sendEmailForAccountAcctive($email, $link){
     //Create an instance; passing `true` enables exceptions
-$mail = new PHPMailer(true);
-try {
-    //Server settings
+
     global $username;
     global $password;
+    $mail = new PHPMailer(true);
+try {
+    //Server settings
     $mail->SMTPDebug = 0;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
@@ -31,7 +33,7 @@ try {
     $mail->CharSet    = "UTF-8";                              //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('dangkhachung10k@gmail.com', 'Đặng Khắc Hùng');
+    $mail->setFrom('dangkhachung10k@gmail.com', 'Hahalolo');
     $mail->addAddress($email);     //Add a recipient
     //$mail->addAddress('ellen@example.com');               //Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
@@ -44,12 +46,14 @@ try {
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = '[Account Acctive] From localhost to CSE485';
-    $mail->Body    = 'Chao mung ban';
+    $mail->Subject = '[Hahalolo] Kích hoạt tài khoản';
+    $mail->Body    = 'Để kích hoạt tài khoản, mời bạn nhấp vào đây!' .$link;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
-    $mail->send();
-    echo 'Message has been sent';
+    if($mail->send())
+    {
+    return true;
+    }
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }

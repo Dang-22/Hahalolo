@@ -19,16 +19,16 @@
 </div>
 <div class="card container-sm">
   <div class="card-body">
-  <form>
+  <form action="process_register.php">
     <h4>Đăng ký</h4>
   <div class="row">
     <div class="form-group col-md-6 mb-4">
       <label for="inputTen">Tên</label>
-      <input type="text" class="form-control" id="inputTen" placeholder="Nhập tên của bạn">
+      <input type="text" class="form-control" name="ten" id="inputTen" placeholder="Nhập tên của bạn">
     </div>
     <div class="form-group col-md-6 mb-4">
     <label for="inputHo">Họ đệm</label>
-      <input type="text" class="form-control" id="inputHo" placeholder="Nhập họ đệm của bạn">
+      <input type="text" class="form-control" name="ho" id="inputHo" placeholder="Nhập họ đệm của bạn">
     </div>
   </div>
   <div class="form-group">
@@ -37,11 +37,11 @@
   </div>
   <div class="form-group">
     <label for="inputPass1">Mật khẩu</label>
-    <input type="password" name="pass2" class="form-control" id="inputPass1" placeholder="Mật khẩu">
+    <input type="password" name="password" class="form-control" id="inputPass1" placeholder="Mật khẩu">
   </div>
   <div class="form-group">
   <label for="inputPass2">Xác nhận mật khẩu</label>
-    <input type="password" name="pass2" class="form-control" id="inputPass2" placeholder="Xác nhận mật khẩu">
+    <input type="password" name="cpassword" class="form-control" id="inputPass2" placeholder="Xác nhận mật khẩu">
   </div>
   <button type="submit" name="btnSubmit" class="btn btn-primary">Đăng ký</button>
 </form>
