@@ -5,30 +5,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/hotel_detail.css">
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
   <title>tìm kiếm</title>
 </head>
 
 <body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
   <header>
     <?php include "./Header.php" ?>
@@ -42,20 +35,15 @@
               Bạn muốn ở đâu?
               <div class="select-option">
                 <i class="fas fa-map-marker-alt"></i>
-
                 <select class="form-select-01 border-0 " aria-label="Default select example">
-                  <option selected>
-
-                  </option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  <option selected>Chọn nơi bạn muốn đến</option>
+                  <option value="1">Fairfield Inn and Stes Marriott</option>
+                  <option value="2">Hampton Inn Utica</option>
+                  <option value="3">Vissai SAIGON Hottel</option>
                 </select>
               </div>
               <hr>
-
               Ngày nhận phòng
-
               <div class="search_box_date search_box_item">
                 <div class="input-group date datepicker">
                   <span class="input-group-append">
@@ -67,7 +55,6 @@
                 </div>
               </div>
               Ngày trả phòng
-
               <div class="search_box_date search_box_item">
                 <div class="input-group date datepicker">
                   <span class="input-group-append">
@@ -78,27 +65,21 @@
                   <input type="text" class="form-control">
                 </div>
               </div>
-
-
               Số người
               <div class="select-option">
                 <i class="fas fa-users"></i>
                 <select class="form-select-01 border-0" aria-label="Default select example">
-                  <option selected></option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  <option selected>1 người lớn - 0 trẻ em - 1 phòng</option>
+                  <option value="1">2 người lớn - 0 trẻ em - 1 phòng</option>
+                  <option value="2">2 người lớn - 1 trẻ em - 1 phòng</option>
                 </select>
               </div>
               <hr>
-
               <button class="btnSearch">
                 Tìm kiếm
               </button>
             </div>
-
           </div>
-
         </div>
         <div class="right col-sm-9 mt-9">
           <h1>HAMPTON INN UTICA</h1>
@@ -134,19 +115,6 @@
                   <img src="./img/FAIRFIELD.jpg" class="d-block w-100" alt="...">
                 </div>
               </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
             <div class="row">
               <div class="col-md-3 p-0 mt-2 ps-2 ">
@@ -418,20 +386,12 @@
                   style="font-size: 12px ; text-decoration: none ;color: rgb(5, 140, 158);">Thay đổi số lượng phòng</a>
               </div>
             </div>
-
-
-
           </h9>
         </div>
       </div>
     </div>
-    </div>
   </main>
-  <div class="box-chu">
 
-
-
-  </div>
   <div class="footer container-sm">
     <div class="footer_container mt-4">
       <h4>Những chỗ nghỉ phổ biến và tương tự với khách sạn HAMPTON INN UTICA</h4>
@@ -446,8 +406,7 @@
                     <b class="card_titler">HOTEL DES ARTS SAIGON</b>
                     <form action="">
                       <i class="fas fa-map-marker-alt"></i>
-                      <a
-                        href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
+                      <a href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
                         N Genesee St, Utica, NY 13502, Hoa Kỳ</a>
                     </form>
                     <h7 class="card-text">Giá mỗi đêm</h7>
@@ -462,8 +421,7 @@
                     <b class="card_titler">SILVERLAND JOLIE HOTEL AND SPA</b>
                     <form action="">
                       <i class="fas fa-map-marker-alt"></i>
-                      <a
-                        href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
+                      <a href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
                         N Genesee St, Utica, NY 13502, Hoa Kỳ</a>
                     </form>
                     <h7 class="card-text">Giá mỗi đêm</h7>
@@ -478,8 +436,7 @@
                     <b class="card_titler">WINDSOR PLAZA HOTEL CON</b>
                     <form action="">
                       <i class="fas fa-map-marker-alt"></i>
-                      <a
-                        href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
+                      <a href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
                         N Genesee St, Utica, NY 13502, Hoa Kỳ</a>
                     </form>
                     <h7 class="card-text">Giá mỗi đêm</h7>
@@ -494,8 +451,7 @@
                     <b class="card_titler">SHERWOOD RESIDENCE</b>
                     <form action="">
                       <i class="fas fa-map-marker-alt"></i>
-                      <a
-                        href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
+                      <a href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
                         N Genesee St, Utica, NY 13502, Hoa Kỳ</a>
                     </form>
                     <h7 class="card-text">Giá mỗi đêm</h7>
@@ -514,8 +470,7 @@
                     <b class="card_titler">HAMPTON INN UTICA NY</b>
                     <form action="">
                       <i class="fas fa-map-marker-alt"></i>
-                      <a
-                        href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
+                      <a href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
                         N Genesee St, Utica, NY 13502, Hoa Kỳ</a>
                     </form>
                     <h7 class="card-text">Giá mỗi đêm</h7>
@@ -530,8 +485,7 @@
                     <b class="card_titler">EXTENDED STAY AMERICA SYRACUSE</b>
                     <form action="">
                       <i class="fas fa-map-marker-alt"></i>
-                      <a
-                        href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
+                      <a href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
                         N Genesee St, Utica, NY 13502, Hoa Kỳ</a>
                     </form>
                     <h7 class="card-text">Giá mỗi đêm</h7>
@@ -546,8 +500,7 @@
                     <b class="card_titler">FAIRFIELD INN N STES MARRIOTT</b>
                     <form action="">
                       <i class="fas fa-map-marker-alt"></i>
-                      <a
-                        href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
+                      <a href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
                         N Genesee St, Utica, NY 13502, Hoa Kỳ</a>
                     </form>
                     <h7 class="card-text">Giá mỗi đêm</h7>
@@ -562,8 +515,7 @@
                     <b class="card_titler">SOFITEL SAIGON PLAZA</b>
                     <form action="">
                       <i class="fas fa-map-marker-alt"></i>
-                      <a
-                        href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
+                      <a href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
                         N Genesee St, Utica, NY 13502, Hoa Kỳ</a>
                     </form>
                     <h7 class="card-text">Giá mỗi đêm</h7>
@@ -574,13 +526,11 @@
             </div>
 
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>

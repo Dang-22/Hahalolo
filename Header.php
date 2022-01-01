@@ -27,7 +27,7 @@
   
           <div class="middle">
   
-            <a class="news" href="">
+            <a class="news text-decoration-none text-dark" href="">
               <span class="circle">
                 <svg viewBox="0 0 24 24" width="24" height="24">
                   <path
@@ -37,7 +37,7 @@
               </span>
               <p>Bảng tin</p>
             </a>
-            <a class="experience" href="">
+            <a class="experience text-decoration-none text-dark" href="">
               <span class="circle">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                   <path data-name="Path 20272"
@@ -47,7 +47,7 @@
               </span>
               <p>Trải nghiệm</p>
             </a>
-            <a class="tour" href="">
+            <a class="tour text-decoration-none text-dark" href="">
               <span class="circle">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                   <g data-name="Group 28235">
@@ -116,7 +116,7 @@
               </span>
               <p>Tour</p>
             </a>
-            <a class="hotel" href="">
+            <a class="hotel text-decoration-none text-dark" href="">
               <span class="circle">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                   <g data-name="Group 25252">
@@ -210,7 +210,7 @@
               </span>
               <p>Khách sạn</p>
             </a>
-            <a class="ticket" href="">
+            <a class="ticket text-decoration-none text-dark" href="">
               <span class="circle">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                   <path
@@ -220,7 +220,7 @@
               </span>
               <p>Vé máy bay</p>
             </a>
-            <a class="car" href="">
+            <a class="car text-decoration-none text-dark" href="">
               <span class="circle">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                   <g id="Group_27922" data-name="Group 27922" transform="translate(12829 11763)">
@@ -265,7 +265,7 @@
               </span>
               <p>Cho thuê xe</p>
             </a>
-            <a class="shopping" href="">
+            <a class="shopping text-decoration-none text-dark" href="">
               <span class="circle">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                   <path
@@ -336,24 +336,9 @@
               </svg>
             </a>
             <a class="user" href="">
-              <div>
-                <div>
-                  <div class="MuiBox-root jss203 jss20"><button
-                      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall" tabindex="0"
-                      type="button"><span class="MuiIconButton-label">
-                        <div class="jss204"><span class="MuiBadge-root">
-                            <div class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"><svg
-                                class="MuiSvgIcon-root MuiAvatar-fallback" focusable="false" viewBox="0 0 24 24"
-                                aria-hidden="true">
-                                <path
-                                  d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z">
-                                </path>
-                              </svg></div><span
-                              class="MuiBadge-badge MuiBadge-anchorOriginBottomRightCircle MuiBadge-invisible"></span>
-                          </span></div>
-                      </span><span class="MuiTouchRipple-root"></span></button></div>
-                </div>
-              </div>
+            <i class="fas fa-user">
+
+            </i>
             </a>
           </div>
         </div>
