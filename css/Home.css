@@ -1,31 +1,37 @@
-header >nav.navbar{
-    padding: 0;
-    margin: 0;
+.content_item{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.bg-light .container-sm .row .content_item{
+    padding: 8px;
+}
+.content_item .card img{
+    height: 154px;
+}
+.content_item .card-body{
+    height: 191px;
+}
+.bg-light{
+    background-image: url("http://cdn.reatimes.vn/mediav2/media_old/upload/Daz8bLLgWiyONlYhLXFY7g/files/cac-mau-bungalow-trong-resort-5.jpg");
+    background-repeat: no-repeat;  
+    background-size: 800px;
+    background-position: right top;
+}
+.bg-light .container-sm{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container-sm .row{
+    margin-top: 17px;
+    border-radius: 4px;  
 
 }
-
-header > nav .container-fluid{
-    margin: 0px;
-    padding: 0 24px;
-    height: 64px;
-    width: 100%;
-}
-header > nav .container-fluid .middle a{
-   display: table-cell;
-   padding: 16px 8px;
-}
-/* css cho mấy cái thẻ  */
-.fooder
+.bg-light .container-sm .text 
 {
-    display: flex;
+    padding-top: 20px ;
+    margin-left: 20px;
 }
-.row1 {
-    display: flex;
-}
-.anhright {
-    
-   
-}
-.word {
-    margin-left:100px;
-}
+
+
+
