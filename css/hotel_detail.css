@@ -98,3 +98,7 @@ hr:not([size]) {
 .khungdatphongbenduoi {
     border: solid 2px rgb(216, 212, 208);
 }
+/* button css */
+.button_right .nav .nav_item a {
+    border-radius: 30px;
+}
