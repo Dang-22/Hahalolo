@@ -116,7 +116,30 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/FAIRFIELD.jpg" class="d-block p-0 mt-2 ps-2  " alt="">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/FAIRFIELD.jpg" class="d-block p-0 mt-2 ps-2  " alt="">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/FAIRFIELD.jpg" class="d-block p-0 mt-2 ps-2  " alt="">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- <div class="row">
               <div class="col-md-3 p-0 mt-2 ps-2 ">
                 <img class="anhslide ps-2" src="./img/SOFITELjpg.jpg" alt=" ">
               </div>
@@ -129,7 +152,7 @@
               <div class="col-md-3 p-0 mt-2 ps-2 ">
                 <img class="anhslide pe-2" src="./img/SOFITELjpg.jpg" alt=" ">
               </div>
-            </div>
+            </div> -->
             <div class="row">
               <div class="col-md-12 bg-white text-secondary p-3">
                 <p>- Welcome to Homewood Suites Syracuse. This modern all-suite hotel offers the perfect home away from
@@ -152,17 +175,37 @@
             <div class="row bg-primary" style="border-radius: 10px;">
               <div class="col-md-3 text-white mt-3">
                 <p>Ngày nhận phòng</p>
-                <h5>Thứ 3,28/12/2021</h5>
+                <div class="search_box_date search_box_item">
+                  <div class="input-group date datepicker">
+                    <span class="input-group-append">
+                      <span class="input-group-text bg-white d-block">
+                        <i class="fa fa-calendar"></i>
+                      </span>
+                    </span>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
                 <hr class="text-white">
               </div>
               <div class="col-md-3 text-white mt-3">
                 <p>Ngày trả phòng</p>
-                <h5>Thứ 7,30/12/2021</h5>
+                <div class="search_box_date search_box_item">
+                  <div class="input-group date datepicker">
+                    <span class="input-group-append">
+                      <span class="input-group-text bg-white d-block">
+                        <i class="fa fa-calendar"></i>
+                      </span>
+                    </span>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
                 <hr class="text-white">
               </div>
               <div class="col-md-3 text-white mt-3">
                 <p>Số người</p>
-                <h5>3-6 người</h5>
+                <div class="search_box_item search_box_people">
+                  <input placeholder="Nhập số lượng người" type="text" class="form-control">
+                </div>
                 <hr class="text-white">
               </div>
               <div class="col-md-3">
@@ -203,7 +246,7 @@
             <div class="row mt-5 khungdatphongbenduoi">
               <div class="col-md-4 anhphong">
                 <h5 class="text-black mt-2 ms-2">Phòng Deluxe, 1 King size bed</h5>
-                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/hampton_inn.jpg" alt="">
+                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/SHERWOOD-RESIDENCE.jpg" alt="">
                 <a href="" class="text-primary ms-2" style="text-decoration: none; font-weight: 700;">Chi tiết phòng</a>
                 <p class="text-secondary mt-2 ms-2"> 1 King size </p>
               </div>
@@ -234,7 +277,7 @@
             <div class="row mt-5 khungdatphongbenduoi">
               <div class="col-md-4 anhphong">
                 <h5 class="text-black mt-2 ms-2">Phòng Deluxe, 1 King size bed</h5>
-                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/hampton_inn.jpg" alt="">
+                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/SILVERLAND-SPA.jpg" alt="">
                 <a href="" class="text-primary ms-2" style="text-decoration: none; font-weight: 700;">Chi tiết phòng</a>
                 <p class="text-secondary mt-2 ms-2"> 1 King size </p>
               </div>
@@ -265,7 +308,7 @@
             <div class="row mt-5 khungdatphongbenduoi">
               <div class="col-md-4 anhphong">
                 <h5 class="text-black mt-2 ms-2">Phòng Deluxe, 1 King size bed</h5>
-                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/hampton_inn.jpg" alt="">
+                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/WINDSOR-PLAZA.jpg" alt="">
                 <a href="" class="text-primary ms-2" style="text-decoration: none; font-weight: 700;">Chi tiết phòng</a>
                 <p class="text-secondary mt-2 ms-2"> 1 King size </p>
               </div>
@@ -296,7 +339,7 @@
             <div class="row mt-5 khungdatphongbenduoi">
               <div class="col-md-4 anhphong">
                 <h5 class="text-black mt-2 ms-2">Phòng Deluxe, 1 King size bed</h5>
-                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/hampton_inn.jpg" alt="">
+                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/FAIRFIELD.jpg" alt="">
                 <a href="" class="text-primary ms-2" style="text-decoration: none; font-weight: 700;">Chi tiết phòng</a>
                 <p class="text-secondary mt-2 ms-2"> 1 King size </p>
               </div>
@@ -327,7 +370,7 @@
             <div class="row mt-5 khungdatphongbenduoi">
               <div class="col-md-4 anhphong">
                 <h5 class="text-black mt-2 ms-2">Phòng Deluxe, 1 King size bed</h5>
-                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/hampton_inn.jpg" alt="">
+                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/EXTENDED.jpg" alt="">
                 <a href="" class="text-primary ms-2" style="text-decoration: none; font-weight: 700;">Chi tiết phòng</a>
                 <p class="text-secondary mt-2 ms-2"> 1 King size </p>
               </div>
@@ -358,7 +401,7 @@
             <div class="row mt-5 khungdatphongbenduoi">
               <div class="col-md-4 anhphong">
                 <h5 class="text-black mt-2 ms-2">Phòng Deluxe, 1 King size bed</h5>
-                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/hampton_inn.jpg" alt="">
+                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/SOFITELjpg.jpg" alt="">
                 <a href="" class="text-primary ms-2" style="text-decoration: none; font-weight: 700;">Chi tiết phòng</a>
                 <p class="text-secondary mt-2 ms-2"> 1 King size </p>
               </div>
