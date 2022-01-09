@@ -233,7 +233,9 @@
               </div>
               <div class="col-md-3 ">
                 <button class="btn text-white ms-5 mb-2 mt-5 "
-                  style="border-radius:25px ; background-color: rgb(5, 140, 158); ">Đặt 1 phòng</button>
+                  style="border-radius:25px ; background-color: rgb(5, 140, 158); ">
+                  <a href="./BookHotelRoom.php">Đặt 1 phòng</a>   
+                  </button>
                 <br>
                 <a href="" style="font-size : 12px;text-decoration: none;"
                   class=" mb-2 mt-2 ms-5 ;color: rgb(5, 140, 158);   ">Điều kiện và chính sách</a>
