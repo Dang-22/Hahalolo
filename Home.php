@@ -93,11 +93,11 @@
         <div class="content_item col-grid-xs-12 col-sm-6 col-md-4 col-lg-3">
           <div class="card">
             <div class="img_item pe-3">
-              <a href="./hotel_detail.php"> 
-                <img src="./img/hampton_inn.jpg" alt="...">
-              </a> 
+               <a href="./hotel_detail.php"> 
+              <img src="./img/hampton_inn.jpg" alt="...">
+            </a>  
             </div>
-                  
+                
             <div class="card-body">
               <b class="card_titler">HAMPTON INN UTICA NY</b>
               <form action="">
