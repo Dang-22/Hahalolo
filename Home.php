@@ -15,6 +15,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="img/fontawesome-free-5.15.4-web">
   <title>Trang chủ|Tìm kiếm khách sạn</title>
 
 
@@ -69,7 +71,9 @@
             <input placeholder="Nhập số lượng người" type="text" class="form-control">
         </div>
         <div class="btn_search">
-          <p>Tìm kiếm</p>
+          <a href="./hotel_detail.php" >
+            <p>Tìm kiếm </p>
+          </a>
           <p>Tra cứu đặt phòng</p>
         </div>
 
@@ -88,14 +92,21 @@
       <div class="row">
         <div class="content_item col-grid-xs-12 col-sm-6 col-md-4 col-lg-3">
           <div class="card">
-            <img src="./img/hampton_inn.jpg" alt="...">
+            <div class="img_item pe-3">
+               <a href="./hotel_detail.php"> 
+              <img src="./img/hampton_inn.jpg" alt="...">
+            </a>  
+            </div>
+                
             <div class="card-body">
               <b class="card_titler">HAMPTON INN UTICA NY</b>
               <form action="">
                 <i class="fas fa-map-marker-alt"></i>
-                <a
-                  href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">172-180
-                  N Genesee St, Utica, NY 13502, Hoa Kỳ</a>
+                
+                  <a href="https://www.google.com/maps/place/172-180+N+Genesee+St,+Utica,+NY+13502,+Hoa+K%E1%BB%B3/@43.10939,-75.2193966,17z/data=!3m1!4b1!4m5!3m4!1s0x89d94713de3c298d:0x4bf524ca0cc367ca!8m2!3d43.1093114!4d-75.2170935">
+                    172-180 N Genesee St, Utica, NY 13502, Hoa Kỳ</a>
+               
+                
               </form>
               <h7 class="card-text">Giá mỗi đêm</h7>
               <h6 style="color: red;">3.215.711 ₫ </h6>
@@ -303,7 +314,7 @@
         <p>Những mô hình vườn cây trải nghiệm không chỉ mang lại nguồn thu nhập cho hộ gia đình mà nó còn góp phần vào
           việc phát triển ngành du lịch của địa phương. Nắm bắt được xu hướng này thì vườn cam Mộc Châu cũng đã xuất
           hiện và thu hút rất đông lượng du khách hàng năm.... </p>
-        <a href="">Xem thêm</a>
+        <a href="https://danatravel.vn/thong-tin-du-lich/bo-tui-10-dia-diem-check-in-cuc-dep-tai-moc-chau.html">Xem thêm</a>
       </div>
 
       <div class="col-md-6 left">

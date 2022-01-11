@@ -13,6 +13,7 @@
 }
 .content_item .card img{
     height: 154px;
+    width: 100%;
 }
 .content_item .card-body{
     height: 191px;
