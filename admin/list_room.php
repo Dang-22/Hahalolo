@@ -1,3 +1,11 @@
+<?php
+    // Trước khi cho người dùng xâm nhập vào bên trong
+    // Phải kiểm tra THẺ LÀM VIỆC
+    session_start();
+    if(!isset($_SESSION['isLoginOK'])){
+        header("location:login.php");
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -149,7 +157,7 @@
                                             <td><?php echo $row['gia']; ?></td>
                                             <td><?php echo $row['diachi']; ?></td>
                                             <td><a href="edit-room.php?maphong=<?php echo $row['maphong']; ?>"><i class="fas fa-pencil-alt"></i></a></td>
-                                            <td><a href="delete.php?maphong=<?php echo $row['makhachsan']; ?>"><i class="fas fa-trash-alt"></i></a></td>
+                                            <td><a href="delete-room.php?maphong=<?php echo $row['maphong']; ?>"><i class="fas fa-trash-alt"></i></a></td>
                                         </tr>
                                 <?php
                                     }
