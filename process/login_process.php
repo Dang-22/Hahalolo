@@ -16,7 +16,7 @@
         
         
         // Bước 02: Thực hiện truy vấn
-        $sql = "SELECT * FROM users WHERE email = '$email' AND vaitro = 'KH' ";
+        $sql = "SELECT * FROM users WHERE email = '$email' AND vaitro = 'KH'";
         // Ở đây còn có các vấn đề về tính hợp lệ dữ liệu nhập vào FORM
         // Nghiêm trọng: lỗi SQL Injection
 

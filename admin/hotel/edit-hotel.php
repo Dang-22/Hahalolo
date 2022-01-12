@@ -46,7 +46,7 @@
     <div class="container">
         <h5 class="text-center text-primary mt-5">Chỉnh sửa chi tiết khách sạn</h5>
         <!-- Form thêm Dữ liệu nhân viên -->
-        <form action="add-hotel-process.php" method="post">
+        <form action="edit-hotel-process.php" method="post">
         <div class="form-group">
                 <label for="txtMaks">Mã khách sạn</label>
                 <input type="text" class="form-control" name="makhachsan" placeholder="Nhập Mã khách sạn">

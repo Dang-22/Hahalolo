@@ -119,8 +119,8 @@
                                         <td><?php echo $row['songuoi']; ?></td>
                                         <td><?php echo $row['gia']; ?></td>
                                         <td><?php echo $row['diachi']; ?></td>
-                                        <td><a href="edit-room.php?maphong=<?php echo $row['maphong']; ?>"><i class="fas fa-pencil-alt"></i></a></td>
-                                        <td><a href="delete-room.php?maphong=<?php echo $row['maphong']; ?>"><i class="fas fa-trash-alt"></i></a></td>
+                                        <td><a href="/Hahalolo/admin/room/edit-room.php?maphong=<?php echo $row['maphong']; ?>"><i class="fas fa-pencil-alt"></i></a></td>
+                                        <td><a href="/Hahalolo/admin/room/delete-room.php?maphong=<?php echo $row['maphong']; ?>"><i class="fas fa-trash-alt"></i></a></td>
                                     </tr>
                             <?php
                                 }

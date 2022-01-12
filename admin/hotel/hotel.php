@@ -117,8 +117,8 @@
                                         <td><?php echo $row['gia']; ?></td>
                                         <td><?php echo $row['tienich']; ?></td>
                                         <td><?php echo $row['anh']; ?></td>
-                                        <td><a href="edit-hotel.php?makhachsan=<?php echo $row['makhachsan']; ?>"><i class="fas fa-pencil-alt"></i></a></td>
-                                        <td><a href="delete-hotel.php?makhachsan=<?php echo $row['makhachsan']; ?>"><i class="fas fa-trash-alt"></i></a></td>
+                                        <td><a href="/Hahalolo/admin/hotel/edit-hotel.php?makhachsan=<?php echo $row['makhachsan']; ?>"><i class="fas fa-pencil-alt"></i></a></td>
+                                        <td><a href="/Hahalolo/admin/hotel/delete-hotel.php?makhachsan=<?php echo $row['makhachsan']; ?>"><i class="fas fa-trash-alt"></i></a></td>
                                     </tr>
                             <?php
                                 }
