@@ -96,7 +96,7 @@
 
             <div class="row">
                 <?php
-$conn = mysqli_connect('localhost','root','','db_hahalolo');
+    $conn = mysqli_connect('localhost','root','','db_hahalolo');
 if(!$conn){
     die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
 }
