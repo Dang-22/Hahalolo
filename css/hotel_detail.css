@@ -101,5 +101,10 @@ hr:not([size]) {
 }
 /* button css */
 .button_right .nav .nav_item a {
-    border-radius: 30px;
+    border-radius: 20%;
+}
+
+
+li.nav-item {
+    margin: 0 10px;
 }
