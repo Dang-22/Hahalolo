@@ -24,7 +24,7 @@
                 <div class="col-md-8">
                     <div class="right-action text-right">
                         <div class="btn-groups d-md-flex justify-content-md-end">
-                            <button type="button" class="btn btn-primary" onclick="window.location.href='/Hahalolo/admin/add-room.php'"><i class="fa fa-plus"></i> Thêm Phòng
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='/Hahalolo/admin/add_room_2.php'"><i class="fa fa-plus"></i> Thêm Phòng
                             </button>
                             <button type="button" class="btn btn-success"><i class="fa fa-plus"></i> Thêm Khách Sạn</button>
                         </div>

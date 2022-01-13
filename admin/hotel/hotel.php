@@ -24,9 +24,9 @@
                 <div class="col-md-8">
                     <div class="right-action text-right">
                         <div class="btn-groups d-md-flex justify-content-md-end">
-                            <button type="button" class="btn btn-primary" onclick="window.location.href='/Hahalolo/admin/room/add-room.php'"><i class="fa fa-plus"></i> Thêm Phòng
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='/Hahalolo/admin/room/add_room_2.php'"><i class="fa fa-plus"></i> Thêm Phòng
                             </button>
-                            <button type="button" class="btn btn-success" onclick="window.location.href='/Hahalolo/admin/hotel/add-hotel.php'"><i class="fa fa-plus"></i> Thêm Khách Sạn</button>
+                            <button type="button" class="btn btn-success" onclick="window.location.href='/Hahalolo/admin/hotel/add_hotel_2.php'"><i class="fa fa-plus"></i> Thêm Khách Sạn</button>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                                 die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
                             }
                             // Bước 02: Thực hiện truy vấn
-                            $sql = "SELECT * FROM khachsan ";
+                            $sql = "SELECT * FROM khach_san ";
                             $result = mysqli_query($conn, $sql);
                             // Bước 03: Xử lý kết quả truy vấn
                             if (mysqli_num_rows($result) > 0) {

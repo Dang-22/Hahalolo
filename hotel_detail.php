@@ -139,20 +139,7 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <!-- <div class="row">
-              <div class="col-md-3 p-0 mt-2 ps-2 ">
-                <img class="anhslide ps-2" src="./img/SOFITELjpg.jpg" alt=" ">
-              </div>
-              <div class="col-md-3 p-0 mt-2 ps-2 ">
-                <img class="anhslide" src="./img/SOFITELjpg.jpg" alt=" ">
-              </div>
-              <div class="col-md-3 p-0 mt-2 ps-2 ">
-                <img class="anhslide" src="./img/SOFITELjpg.jpg" alt=" ">
-              </div>
-              <div class="col-md-3 p-0 mt-2 ps-2 ">
-                <img class="anhslide pe-2" src="./img/SOFITELjpg.jpg" alt=" ">
-              </div>
-            </div> -->
+            
             <div class="row">
               <div class="col-md-12 bg-white text-secondary p-3">
                 <p>- Welcome to Homewood Suites Syracuse. This modern all-suite hotel offers the perfect home away from
@@ -212,10 +199,25 @@
                 <button class="btn btn-warning text-white btntimkiem">Thay đổi tìm kiếm</button>
               </div>
             </div>
+            <!-- thông tin và giá phòng -->
             <div class="row mt-5 khungdatphong">
+            <?php
+          $conn = mysqli_connect('localhost','root','','db_hahalolo');
+          if(!$conn){
+             die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
+            }
+          $sql = "SELECT * from phong";
+          $result = mysqli_query($conn,$sql);
+          
+           while($row = mysqli_fetch_assoc($result)) {
+           
+            }
+?>
+              
+            <div class="row my-3 khungdatphongbenduoi">
               <div class="col-md-4 anhphong">
-                <h5 class="text-black mt-2 ms-2">Phòng Deluxe, 1 King size bed</h5>
-                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/hampton_inn.jpg" alt="">
+                <h5 class="text-black mt-2 ms-2"><?php echo $row['tenphong'];?></h5>
+                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="<?php echo $row['anh'];?>" alt="">
                 <a href="" class="text-primary ms-2" style="text-decoration: none; font-weight: 700;">Chi tiết phòng</a>
                 <p class="text-secondary mt-2 ms-2"> 1 King size </p>
               </div>
@@ -224,215 +226,27 @@
               </div>
               <div class="col-md-2 anhphong">
                 <h5 class="ps-2 pe-2 mb-2 mt-2 text-black">Tiện ích</h5>
-                <p class="ps-2 pe-2 mb-2 mt-2 text-success" style="font-size:12px">Miễn phí bữa sáng</p>
+                <p class="ps-2 pe-2 mb-2 mt-2 text-success" style="font-size:12px">
+                <?php echo $row['mota'];?>
+                </p>
 
               </div>
               <div class="col-md-2 anhphong">
                 <p class="ps-2 pe-2 mb-2 mt-2 text-secondary text-end" style="font-size:12px">Giá mỗi đêm</p>
-                <h4 class="ps-2 pe-2 mb-2 mt-2 text-danger text-end">3.450.000đ</h4>
+                <h4 class="ps-2 pe-2 mb-2 mt-2 text-danger text-end"><?php echo $row['gia'];?>đ</h4>
               </div>
               <div class="col-md-3 ">
-                <button class="btn text-white ms-5 mb-2 mt-5 "
-                  style="border-radius:25px ; background-color: rgb(5, 140, 158); ">
-                  <a href="./BookHotelRoom.php">Đặt 1 phòng</a>   
-                  </button>
+                <button class="btn text-white ms-5 mb-2 mt-5 " style="border-radius:25px ; background-color: rgb(5, 140, 158); ">Đặt 1 phòng</button>
                 <br>
-                <a href="" style="font-size : 12px;text-decoration: none;"
-                  class=" mb-2 mt-2 ms-5 ;color: rgb(5, 140, 158);   ">Điều kiện và chính sách</a>
+                <a href="" style="font-size : 12px;text-decoration: none;" class=" mb-2 mt-2 ms-5 ;color: rgb(5, 140, 158);   ">Điều kiện và chính sách</a>
                 <p class=" mb-2 mt-5 text-secondary text-center">1 phòng/1 đêm</p>
-                <h4 class=" mb-2 mt-3 text-center text-danger">3.450.000đ</h4>
-                <a class=" mb-2 mt-5 ms-5" href=""
-                  style="font-size: 12px ; text-decoration: none ;color: rgb(5, 140, 158);">Thay đổi số lượng phòng</a>
+                <h4 class=" mb-2 mt-3 text-center text-danger"><?php echo $row['gia'];?>đ</h4>
+                <a class=" mb-2 mt-5 ms-5" href="" style="font-size: 12px ; text-decoration: none ;color: rgb(5, 140, 158);">Thay đổi số lượng phòng</a>
               </div>
             </div>
-            <div class="row mt-5 khungdatphongbenduoi">
-              <div class="col-md-4 anhphong">
-                <h5 class="text-black mt-2 ms-2">Phòng Deluxe, 1 King size bed</h5>
-                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/SHERWOOD-RESIDENCE.jpg" alt="">
-                <a href="" class="text-primary ms-2" style="text-decoration: none; font-weight: 700;">Chi tiết phòng</a>
-                <p class="text-secondary mt-2 ms-2"> 1 King size </p>
-              </div>
-              <div class="col-md-1 anhphong">
-                <p class="ps-2 pe-2 mb-2 mt-2">X1</p>
-              </div>
-              <div class="col-md-2 anhphong">
-                <h5 class="ps-2 pe-2 mb-2 mt-2 text-black">Tiện ích</h5>
-                <p class="ps-2 pe-2 mb-2 mt-2 text-success" style="font-size:12px">Miễn phí bữa sáng</p>
-
-              </div>
-              <div class="col-md-2 anhphong">
-                <p class="ps-2 pe-2 mb-2 mt-2 text-secondary text-end" style="font-size:12px">Giá mỗi đêm</p>
-                <h4 class="ps-2 pe-2 mb-2 mt-2 text-danger text-end">3.450.000đ</h4>
-              </div>
-              <div class="col-md-3 ">
-                <button class="btn text-white ms-5 mb-2 mt-5 "
-                  style="border-radius:25px ; background-color: rgb(5, 140, 158); ">Đặt 1 phòng</button>
-                <br>
-                <a href="" style="font-size : 12px;text-decoration: none;"
-                  class=" mb-2 mt-2 ms-5 ;color: rgb(5, 140, 158);   ">Điều kiện và chính sách</a>
-                <p class=" mb-2 mt-5 text-secondary text-center">1 phòng/1 đêm</p>
-                <h4 class=" mb-2 mt-3 text-center text-danger">3.450.000đ</h4>
-                <a class=" mb-2 mt-5 ms-5" href=""
-                  style="font-size: 12px ; text-decoration: none ;color: rgb(5, 140, 158);">Thay đổi số lượng phòng</a>
-              </div>
-            </div>
-            <div class="row mt-5 khungdatphongbenduoi">
-              <div class="col-md-4 anhphong">
-                <h5 class="text-black mt-2 ms-2">Phòng Deluxe, 1 King size bed</h5>
-                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/SILVERLAND-SPA.jpg" alt="">
-                <a href="" class="text-primary ms-2" style="text-decoration: none; font-weight: 700;">Chi tiết phòng</a>
-                <p class="text-secondary mt-2 ms-2"> 1 King size </p>
-              </div>
-              <div class="col-md-1 anhphong">
-                <p class="ps-2 pe-2 mb-2 mt-2">X1</p>
-              </div>
-              <div class="col-md-2 anhphong">
-                <h5 class="ps-2 pe-2 mb-2 mt-2 text-black">Tiện ích</h5>
-                <p class="ps-2 pe-2 mb-2 mt-2 text-success" style="font-size:12px">Miễn phí bữa sáng</p>
-
-              </div>
-              <div class="col-md-2 anhphong">
-                <p class="ps-2 pe-2 mb-2 mt-2 text-secondary text-end" style="font-size:12px">Giá mỗi đêm</p>
-                <h4 class="ps-2 pe-2 mb-2 mt-2 text-danger text-end">3.450.000đ</h4>
-              </div>
-              <div class="col-md-3 ">
-                <button class="btn text-white ms-5 mb-2 mt-5 "
-                  style="border-radius:25px ; background-color: rgb(5, 140, 158); ">Đặt 1 phòng</button>
-                <br>
-                <a href="" style="font-size : 12px;text-decoration: none;"
-                  class=" mb-2 mt-2 ms-5 ;color: rgb(5, 140, 158);   ">Điều kiện và chính sách</a>
-                <p class=" mb-2 mt-5 text-secondary text-center">1 phòng/1 đêm</p>
-                <h4 class=" mb-2 mt-3 text-center text-danger">3.450.000đ</h4>
-                <a class=" mb-2 mt-5 ms-5" href=""
-                  style="font-size: 12px ; text-decoration: none ;color: rgb(5, 140, 158);">Thay đổi số lượng phòng</a>
-              </div>
-            </div>
-            <div class="row mt-5 khungdatphongbenduoi">
-              <div class="col-md-4 anhphong">
-                <h5 class="text-black mt-2 ms-2">Phòng Deluxe, 1 King size bed</h5>
-                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/WINDSOR-PLAZA.jpg" alt="">
-                <a href="" class="text-primary ms-2" style="text-decoration: none; font-weight: 700;">Chi tiết phòng</a>
-                <p class="text-secondary mt-2 ms-2"> 1 King size </p>
-              </div>
-              <div class="col-md-1 anhphong">
-                <p class="ps-2 pe-2 mb-2 mt-2">X1</p>
-              </div>
-              <div class="col-md-2 anhphong">
-                <h5 class="ps-2 pe-2 mb-2 mt-2 text-black">Tiện ích</h5>
-                <p class="ps-2 pe-2 mb-2 mt-2 text-success" style="font-size:12px">Miễn phí bữa sáng</p>
-
-              </div>
-              <div class="col-md-2 anhphong">
-                <p class="ps-2 pe-2 mb-2 mt-2 text-secondary text-end" style="font-size:12px">Giá mỗi đêm</p>
-                <h4 class="ps-2 pe-2 mb-2 mt-2 text-danger text-end">3.450.000đ</h4>
-              </div>
-              <div class="col-md-3 ">
-                <button class="btn text-white ms-5 mb-2 mt-5 "
-                  style="border-radius:25px ; background-color: rgb(5, 140, 158); ">Đặt 1 phòng</button>
-                <br>
-                <a href="" style="font-size : 12px;text-decoration: none;"
-                  class=" mb-2 mt-2 ms-5 ;color: rgb(5, 140, 158);   ">Điều kiện và chính sách</a>
-                <p class=" mb-2 mt-5 text-secondary text-center">1 phòng/1 đêm</p>
-                <h4 class=" mb-2 mt-3 text-center text-danger">3.450.000đ</h4>
-                <a class=" mb-2 mt-5 ms-5" href=""
-                  style="font-size: 12px ; text-decoration: none ;color: rgb(5, 140, 158);">Thay đổi số lượng phòng</a>
-              </div>
-            </div>
-            <div class="row mt-5 khungdatphongbenduoi">
-              <div class="col-md-4 anhphong">
-                <h5 class="text-black mt-2 ms-2">Phòng Deluxe, 1 King size bed</h5>
-                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/FAIRFIELD.jpg" alt="">
-                <a href="" class="text-primary ms-2" style="text-decoration: none; font-weight: 700;">Chi tiết phòng</a>
-                <p class="text-secondary mt-2 ms-2"> 1 King size </p>
-              </div>
-              <div class="col-md-1 anhphong">
-                <p class="ps-2 pe-2 mb-2 mt-2">X1</p>
-              </div>
-              <div class="col-md-2 anhphong">
-                <h5 class="ps-2 pe-2 mb-2 mt-2 text-black">Tiện ích</h5>
-                <p class="ps-2 pe-2 mb-2 mt-2 text-success" style="font-size:12px">Miễn phí bữa sáng</p>
-
-              </div>
-              <div class="col-md-2 anhphong">
-                <p class="ps-2 pe-2 mb-2 mt-2 text-secondary text-end" style="font-size:12px">Giá mỗi đêm</p>
-                <h4 class="ps-2 pe-2 mb-2 mt-2 text-danger text-end">3.450.000đ</h4>
-              </div>
-              <div class="col-md-3 ">
-                <button class="btn text-white ms-5 mb-2 mt-5 "
-                  style="border-radius:25px ; background-color: rgb(5, 140, 158); ">Đặt 1 phòng</button>
-                <br>
-                <a href="" style="font-size : 12px;text-decoration: none;"
-                  class=" mb-2 mt-2 ms-5 ;color: rgb(5, 140, 158);   ">Điều kiện và chính sách</a>
-                <p class=" mb-2 mt-5 text-secondary text-center">1 phòng/1 đêm</p>
-                <h4 class=" mb-2 mt-3 text-center text-danger">3.450.000đ</h4>
-                <a class=" mb-2 mt-5 ms-5" href=""
-                  style="font-size: 12px ; text-decoration: none ;color: rgb(5, 140, 158);">Thay đổi số lượng phòng</a>
-              </div>
-            </div>
-            <div class="row mt-5 khungdatphongbenduoi">
-              <div class="col-md-4 anhphong">
-                <h5 class="text-black mt-2 ms-2">Phòng Deluxe, 1 King size bed</h5>
-                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/EXTENDED.jpg" alt="">
-                <a href="" class="text-primary ms-2" style="text-decoration: none; font-weight: 700;">Chi tiết phòng</a>
-                <p class="text-secondary mt-2 ms-2"> 1 King size </p>
-              </div>
-              <div class="col-md-1 anhphong">
-                <p class="ps-2 pe-2 mb-2 mt-2">X1</p>
-              </div>
-              <div class="col-md-2 anhphong">
-                <h5 class="ps-2 pe-2 mb-2 mt-2 text-black">Tiện ích</h5>
-                <p class="ps-2 pe-2 mb-2 mt-2 text-success" style="font-size:12px">Miễn phí bữa sáng</p>
-
-              </div>
-              <div class="col-md-2 anhphong">
-                <p class="ps-2 pe-2 mb-2 mt-2 text-secondary text-end" style="font-size:12px">Giá mỗi đêm</p>
-                <h4 class="ps-2 pe-2 mb-2 mt-2 text-danger text-end">3.450.000đ</h4>
-              </div>
-              <div class="col-md-3 ">
-                <button class="btn text-white ms-5 mb-2 mt-5 "
-                  style="border-radius:25px ; background-color: rgb(5, 140, 158); ">Đặt 1 phòng</button>
-                <br>
-                <a href="" style="font-size : 12px;text-decoration: none;"
-                  class=" mb-2 mt-2 ms-5 ;color: rgb(5, 140, 158);   ">Điều kiện và chính sách</a>
-                <p class=" mb-2 mt-5 text-secondary text-center">1 phòng/1 đêm</p>
-                <h4 class=" mb-2 mt-3 text-center text-danger">3.450.000đ</h4>
-                <a class=" mb-2 mt-5 ms-5" href=""
-                  style="font-size: 12px ; text-decoration: none ;color: rgb(5, 140, 158);">Thay đổi số lượng phòng</a>
-              </div>
-            </div>
-            <div class="row mt-5 khungdatphongbenduoi">
-              <div class="col-md-4 anhphong">
-                <h5 class="text-black mt-2 ms-2">Phòng Deluxe, 1 King size bed</h5>
-                <img class="img-fluid  ps-2 pe-2 mb-2 mt-2" src="./img/SOFITELjpg.jpg" alt="">
-                <a href="" class="text-primary ms-2" style="text-decoration: none; font-weight: 700;">Chi tiết phòng</a>
-                <p class="text-secondary mt-2 ms-2"> 1 King size </p>
-              </div>
-              <div class="col-md-1 anhphong">
-                <p class="ps-2 pe-2 mb-2 mt-2">X1</p>
-              </div>
-              <div class="col-md-2 anhphong">
-                <h5 class="ps-2 pe-2 mb-2 mt-2 text-black">Tiện ích</h5>
-                <p class="ps-2 pe-2 mb-2 mt-2 text-success" style="font-size:12px">Miễn phí bữa sáng</p>
-
-              </div>
-              <div class="col-md-2 anhphong">
-                <p class="ps-2 pe-2 mb-2 mt-2 text-secondary text-end" style="font-size:12px">Giá mỗi đêm</p>
-                <h4 class="ps-2 pe-2 mb-2 mt-2 text-danger text-end">3.450.000đ</h4>
-              </div>
-              <div class="col-md-3 ">
-                <button class="btn text-white ms-5 mb-2 mt-5 "
-                  style="border-radius:25px ; background-color: rgb(5, 140, 158); ">Đặt 1 phòng</button>
-                <br>
-                <a href="" style="font-size : 12px;text-decoration: none;"
-                  class=" mb-2 mt-2 ms-5 ;color: rgb(5, 140, 158);   ">Điều kiện và chính sách</a>
-                <p class=" mb-2 mt-5 text-secondary text-center">1 phòng/1 đêm</p>
-                <h4 class=" mb-2 mt-3 text-center text-danger">3.450.000đ</h4>
-                <a class=" mb-2 mt-5 ms-5" href=""
-                  style="font-size: 12px ; text-decoration: none ;color: rgb(5, 140, 158);">Thay đổi số lượng phòng</a>
-              </div>
-            </div>
-          </h9>
-        </div>
+            
+            
+            
       </div>
     </div>
   </main>
