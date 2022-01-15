@@ -51,8 +51,18 @@
                 <label for="txtTich">Ảnh</label>
                 <input type="file" class="form-control" name="anh" placeholder="Chọn ảnh">
             </div>
-            
-            
+            <div class="form-group">
+                <label for="txtTich">Tổng quan</label>
+                <input type="text" class="form-control" name="tongquan" placeholder="Nhập tổng quan">
+            </div>
+            <div class="form-group">
+                <label for="txtTich">Quy tắc chung</label>
+                <input type="text" class="form-control" name="quytacchung" placeholder="Nhập Quy tắc chung">
+            </div>
+            <div class="form-group">
+                <label for="txtTich">Bản đồ</label>
+                <input type="text" class="form-control" name="urlmap" placeholder="Nhập url map">
+            </div>        
             <button type="submit" class="btn btn-primary mt-3">Lưu lại</button>
         </form>
     </div>    

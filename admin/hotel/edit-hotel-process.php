@@ -16,13 +16,16 @@ if(!isset($_SESSION['isLoginOK'])){
     $gia = $_POST['gia'];
     $tienich = $_POST['tienich'];
     $anh = $_POST['anh'];
+    $tongquan = $_POST['tongquan'];
+    $quytacchung = $_POST['quytacchung'];
+    $urlmap = $_POST['urlmap'];
     // Bước 01: Kết nối Database Server
     $conn = mysqli_connect('localhost','root','','db_hahalolo');
     if(!$conn){
         die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
     }
     // Bước 02: Thực hiện truy vấn
-    $sql = "UPDATE khachsan SET makhachsan='$makhachsan', tenkhachsan='$tenkhachsan', gia='$gia', tienich='$tienich', anh='$anh' WHERE makhachsan = '$makhachsan'";
+    $sql = "UPDATE khachsan SET makhachsan='$makhachsan', tenkhachsan='$tenkhachsan', gia='$gia', tienich='$tienich', anh='$anh', tongquan='$tongquan', quytacchung='$quytacchung', url_map='$urlmap' WHERE makhachsan = '$makhachsan'";
     // echo $sql;
     $ketqua = mysqli_query($conn,$sql);
     

@@ -24,9 +24,9 @@
                 <div class="col-md-8">
                     <div class="right-action text-right">
                         <div class="btn-groups d-md-flex justify-content-md-end">
-                            <button type="button" class="btn btn-primary" onclick="window.location.href='/Hahalolo/admin/add-room.php'"><i class="fa fa-plus"></i> Thêm Phòng
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='/Hahalolo/admin/room/add-room.php'"><i class="fa fa-plus"></i> Thêm Phòng
                             </button>
-                            <button type="button" class="btn btn-success"><i class="fa fa-plus"></i> Thêm Khách Sạn</button>
+                            <button type="button" class="btn btn-success" onclick="window.location.href='/Hahalolo/admin/hotel/add-hotel.php'"><i class="fa fa-plus"></i> Thêm Khách Sạn</button>
                         </div>
                     </div>
                 </div>
@@ -35,52 +35,6 @@
             <div class="main-space orders-space"></div>
 
             <div class="products-content">
-                <div class="product-sear panel-sear">
-                    <div action="" class="row padding-top-12">
-                        <div class="form-group col-md-5 p-8">
-                            <input type="text" class="form-control" placeholder="Nhập mã sản phẩm hoặc tên sản phẩm" id="product-search">
-                        </div>
-                        <div class="form-group col-md-7 ">
-                            <div class="listitem row">
-                                <div class="col-md-3 p-8">
-                                    <select class="form-control" id="search-option-1">
-                                        <option value="0">Đang trống</option>
-                                        <option value="1">Đã được đặt</option>
-                                        <option value="2">Đã xóa</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-3 p-8">
-                                    <select class="form-control search-option-2" id="prd_group_id">
-                                        <option value="-1" selected="selected">Danh mục</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-3 p-8">
-                                    <select class="form-control search-option-3" id="prd_manufacture_id">
-                                        <option value="-1" selected="selected">Nhà sản xuất</option>
-                                        <optgroup label="Chọn nhà sản xuất">
-                                            <?php if (isset($data['_prd_manufacture']) && count($data['_prd_manufacture'])) :
-                                                foreach ($data['_prd_manufacture'] as $key => $val) :
-                                            ?>
-                                                    <option value="<?php echo $val['ID']; ?>"><?php echo $val['prd_manuf_name']; ?></option>
-                                            <?php
-                                                endforeach;
-                                            endif;
-                                            ?>
-                                        </optgroup>
-                                        <optgroup label="------------------------">
-                                            <option value="product_manufacture" data-toggle="modal" data-target="#list-prd-manufacture">Tạo mới Nhà sản xuất
-                                            </option>
-                                        </optgroup>
-                                    </select>
-                                </div>
-                                <div class="col-md-3 p-8 w-auto">
-                                    <button type="button" class="btn btn-primary btn-large btn-ssup" onclick="cms_paging_product(1)"><i class="fa fa-search"></i> Tìm kiếm
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="room-main-body">
                     <table class="table">
                         <thead>

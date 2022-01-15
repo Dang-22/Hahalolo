@@ -16,6 +16,9 @@ if(!isset($_SESSION['isLoginOK'])){
     $gia = $_POST['gia'];
     $tienich = $_POST['tienich'];
     $anh = $_POST['anh'];
+    $tongquan = $_POST['tongquan'];
+    $quytacchung = $_POST['quytacchung'];
+    $urlmap = $_POST['urlmap'];
 
     // Bước 01: Kết nối Database Server
     $conn = mysqli_connect('localhost','root','','db_hahalolo');
@@ -23,14 +26,14 @@ if(!isset($_SESSION['isLoginOK'])){
         die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
     }
     // Bước 02: Thực hiện truy vấn
-    $sql = "INSERT INTO khachsan (makhachsan, tenkhachsan, diachi, gia, tienich, anh) VALUES ('$makhachsan','$tenkhachsan','$diachi','$gia', '$tienich', '$anh')";
+    $sql = "INSERT INTO khachsan (makhachsan, tenkhachsan, diachi, gia, tienich, anh, tongquan, quytacchung, url_map) VALUES ('$makhachsan','$tenkhachsan','$diachi','$gia', '$tienich', '$anh', '$tongquan', '$quytacchung', '$urlmap')";
     // echo $sql;
     $ketqua = mysqli_query($conn,$sql);
     
     if(!$ketqua){
-        header("location: error.php"); //Chuyển hướng lỗi
+        header("location:error.php"); //Chuyển hướng lỗi
     }else{
-        header("location:list_room.php"); //Chuyển hướng lại Trang Quản trị
+        header("location:hotel.php"); //Chuyển hướng lại Trang Quản trị
     }
 
     // Bước 03: Đóng kết nối

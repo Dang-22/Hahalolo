@@ -18,7 +18,7 @@
             <div class="nav row">
                 <div class="col-md-4 col-md-offset-2">
                     <div class="left-action text-left clearfix">
-                        <h2>Danh sách khách sạn</h2>
+                        <h2>Danh sách khách hàng</h2>
                     </div>
                 </div>
                 <div class="col-md-8">
@@ -35,20 +35,19 @@
             <div class="main-space orders-space"></div>
 
             <div class="products-content">
+                
                 <div class="room-main-body">
                     <table class="table">
                         <thead>
                             <tr>
-                                <th scope="col">Mã khách sạn</th>
-                                <th scope="col">Tên khách sạn</th>       
-                                <th scope="col">Địa chỉ</th>
-                                <th scope="col">Giá</th>
-                                <th scope="col">Tiện ích</th>
-                                <th scope="col">Ảnh</th>
-                                <th scope="col">Tổng Quan</th>
-                                <th scope="col">Quy tắc chung</th>
-                                <th scope="col">Sửa</th>
-                                <th scope="col">Xóa</th>
+                                <th scope="col">Mã khách hàng</th>
+                                <th scope="col">Họ</th>
+                                <th scope="col">Tên</th>
+                                <th scope="col">Số điện thoại</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Quốc tịch</th>
+                                <th scope="col">Thành phố</th>
+                               
                             </tr>
                         </thead>
                         <tbody>
@@ -60,23 +59,21 @@
                                 die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
                             }
                             // Bước 02: Thực hiện truy vấn
-                            $sql = "SELECT * FROM khachsan ";
+                            $sql = "SELECT * FROM khachhang";
                             $result = mysqli_query($conn, $sql);
                             // Bước 03: Xử lý kết quả truy vấn
                             if (mysqli_num_rows($result) > 0) {
                                 while ($row = mysqli_fetch_assoc($result)) {
                             ?>
                                     <tr>
-                                        <th scope="row"><?php echo $row['makhachsan']; ?></th>
-                                        <td><?php echo $row['tenkhachsan']; ?></td>
-                                        <td><?php echo $row['diachi']; ?></td>
-                                        <td><?php echo $row['gia']; ?></td>
-                                        <td><?php echo $row['tienich']; ?></td>
-                                        <td><?php echo $row['anh']; ?></td>
-                                        <td><?php echo $row['tongquan']; ?></td>
-                                        <td><?php echo $row['quytacchung']; ?></td>
-                                        <td><a href="/Hahalolo/admin/hotel/edit-hotel.php?makhachsan=<?php echo $row['makhachsan']; ?>"><i class="fas fa-pencil-alt"></i></a></td>
-                                        <td><a href="/Hahalolo/admin/hotel/delete-hotel.php?makhachsan=<?php echo $row['makhachsan']; ?>"><i class="fas fa-trash-alt"></i></a></td>
+                                        <th scope="row"><?php echo $row['makh']; ?></th>
+                                        <td><?php echo $row['ho']; ?></td>
+                                        <td><?php echo $row['ten']; ?></td>
+                                        <td><?php echo $row['sdt']; ?></td>
+                                        <td><?php echo $row['email']; ?></td>
+                                        <td><?php echo $row['quocgia']; ?></td>
+                                        <td><?php echo $row['thanhpho']; ?></td>
+                                        
                                     </tr>
                             <?php
                                 }

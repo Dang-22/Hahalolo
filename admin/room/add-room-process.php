@@ -29,7 +29,7 @@ if(!isset($_SESSION['isLoginOK'])){
     if(!$ketqua){
         header("location: error.php"); //Chuyển hướng lỗi
     }else{
-        header("location: list_room.php"); //Chuyển hướng lại Trang Quản trị
+        header("location:room.php"); //Chuyển hướng lại Trang Quản trị
     }
 
     // Bước 03: Đóng kết nối

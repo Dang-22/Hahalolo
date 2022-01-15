@@ -49,32 +49,42 @@
         <form action="edit-hotel-process.php" method="post">
         <div class="form-group">
                 <label for="txtMaks">Mã khách sạn</label>
-                <input type="text" class="form-control" name="makhachsan" placeholder="Nhập Mã khách sạn">
+                <input type="text" class="form-control" name="makhachsan" placeholder="Nhập Mã khách sạn" value = "<?php echo $row['makhachsan']; ?>">
             </div>
             <div class="form-group">
                 <label for="txtTenks">Tên khách sạn</label>
-                <input type="text" class="form-control" name="tenkhachsan" placeholder="Nhập tên khách sạn">
+                <input type="text" class="form-control" name="tenkhachsan" placeholder="Nhập tên khách sạn" value = "<?php echo $row['tenkhachsan']; ?>">
             </div>
             
             <div class="form-group">
                 <label for="txtDiachi">Địa chỉ</label>
-                <input type="text" class="form-control" name="diachi" placeholder="Nhập địa chỉ">
+                <input type="text" class="form-control" name="diachi" placeholder="Nhập địa chỉ" value = "<?php echo $row['diachi']; ?>">
             </div>
             <div class="form-group">
                 <label for="txtGia">Giá</label>
-                <input type="int" class="form-control" name="gia" placeholder="Giá">
+                <input type="int" class="form-control" name="gia" placeholder="Giá" value = "<?php echo $row['gia']; ?>">
                 
             </div>
             <div class="form-group">
                 <label for="txtTich">Tiện ích</label>
-                <input type="text" class="form-control" name="tienich" placeholder="Nhập Tiện ích">
+                <input type="text" class="form-control" name="tienich" placeholder="Nhập Tiện ích" value = "<?php echo $row['tienich']; ?>">
             </div>
             <div class="form-group">
                 <label for="txtTich">Ảnh</label>
-                <input type="file" class="form-control" name="anh" placeholder="Chọn ảnh">
+                <input type="file" class="form-control" name="anh" placeholder="Chọn ảnh" value = "<?php echo $row['anh']; ?>">
             </div>
-            
-            
+            <div class="form-group">
+                <label for="txtTich">Tổng quan</label>
+                <input type="text" class="form-control" name="tongquan" placeholder="Nhập tổng quan" value = "<?php echo $row['tongquan']; ?>">
+            </div>
+            <div class="form-group">
+                <label for="txtTich">Quy tắc chung</label>
+                <input type="text" class="form-control" name="quytacchung" placeholder="Nhập Quy tắc chung" value = "<?php echo $row['quytacchung']; ?>">
+            </div>
+            <div class="form-group">
+                <label for="txtTich">Bản đồ</label>
+                <input type="text" class="form-control" name="urlmap" placeholder="Nhập url map" value = "<?php echo $row['url_map']; ?>">
+            </div>        
             <button type="submit" class="btn btn-primary mt-3">Lưu lại</button>
         </form>
     </div>    
