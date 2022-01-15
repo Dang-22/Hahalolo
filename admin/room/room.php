@@ -24,7 +24,11 @@
                 <div class="col-md-8">
                     <div class="right-action text-right">
                         <div class="btn-groups d-md-flex justify-content-md-end">
+<<<<<<< HEAD
                             <button type="button" class="btn btn-primary" onclick="window.location.href='/Hahalolo/admin/room/add-room.php'"><i class="fa fa-plus"></i> Thêm Phòng
+=======
+                            <button type="button" class="btn btn-primary" onclick="window.location.href='/Hahalolo/admin/add_room_2.php'"><i class="fa fa-plus"></i> Thêm Phòng
+>>>>>>> cb4ebeda3e1adffda5374da6407925120c9f3e3d
                             </button>
                             <button type="button" class="btn btn-success" onclick="window.location.href='/Hahalolo/admin/hotel/add-hotel.php'"><i class="fa fa-plus"></i> Thêm Khách Sạn</button>
                         </div>

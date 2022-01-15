@@ -23,9 +23,9 @@
         $result = mysqli_query($conn,$sql);
         if(mysqli_num_rows($result) > 0){
             $rowresult = mysqli_fetch_assoc($result);
-            if ( password_verify($pass,$rowresult['password'])) {
+            if ( password_verify($pass,$rowresult['pass'])) {
                 $_SESSION['isLoginOK'] = $email;
-            header("location: admin.php");
+            header("location:/Hahalolo/index.php");
             
         }
         else {
