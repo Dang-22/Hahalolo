@@ -1,3 +1,11 @@
+<?php 
+  session_start();
+  if(isset($_SESSION['isLoginOK']) && $_SESSION['isLoginOK']){
+    header("location: /Hahalolo/");
+  }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,7 +55,7 @@
             </div>
 
             <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
-            <p>Don't have an account? <a href="#!" class="link-info">Register here</a></p>
+            <p>Don't have an account? <a href="Register.php" class="link-info">Register here</a></p>
             
 
           </form>
