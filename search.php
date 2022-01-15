@@ -88,7 +88,7 @@ if ($result->num_rows > 0) {
         <div class="container-sm bg-light" style="height: 100vh">
             <div class="row">
                 <div class="left col-sm-3">
-                    <form action="/Hahalolo1/search.php" method="GET">
+                    <form action="/Hahalolo/search.php" method="GET">
                         <div class="card">
                             <div class="carditem">
                                 Bạn muốn ở đâu?
@@ -144,6 +144,7 @@ if ($result->num_rows > 0) {
                         </div>
                     </form>
                 </div>
+                
                 <div class="right col-sm-9 mt-9">
                     <h4 style="font-weight: 400" class="mb-4">Những chỗ nghỉ phù hợp được tìm thấy <?= $diachi ? "ở $diachi" : "" ?>
                         <?= $ngaynhanphong ? "ngày nhận phòng $ngaynhanphong" : "" ?> <?= $ngaytraphong ? "ngày trả phòng $ngaytraphong" : "" ?> <?= $soluong ? "số người $soluong" : "" ?></h4>
@@ -165,7 +166,7 @@ if ($result->num_rows > 0) {
                                     <div class="d-flex flex-column text-right">
                                         <span>Giá mỗi đêm</span>
                                         <h6 class="py-2" style="color: red;"><?= number_format($post->gia) ?> đ</h6>
-                                        <a class="btn_primary" href="/hotel_detail.php?makhachsan=MT1">Chọn phòng</a>
+                                        <a class="btn_primary" href="/Hahalolo/hotel_detail.php?makhachsan=MT1">Chọn phòng</a>
                                     </div>
                                 </div>
                             </div>
